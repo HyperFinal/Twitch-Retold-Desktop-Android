@@ -1,8 +1,143 @@
 [
   {
+    "version": "2.1.1",
+    "date": "2026-09-13",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.1.1 - GitHub Star Gate, Stabilità Player & RetoldShield",
+      "en": "Twitch Retold v2.1.1 - GitHub Star Gate, Player Stability & RetoldShield",
+      "fr": "Twitch Retold v2.1.1 - GitHub Star Gate, Stabilité du Lecteur & RetoldShield",
+      "de": "Twitch Retold v2.1.1 - GitHub Star Gate, Player-Stabilität & RetoldShield",
+      "es": "Twitch Retold v2.1.1 - GitHub Star Gate, Estabilidad del Reproductor y RetoldShield",
+      "pt": "Twitch Retold v2.1.1 - GitHub Star Gate, Estabilidade do Player e RetoldShield"
+    },
+    "banner": {
+      "badge": {
+        "it": "IN ARRIVO",
+        "en": "COMING SOON",
+        "fr": "BIENTÔT DISPONIBLE",
+        "de": "BALD VERFÜGBAR",
+        "es": "MUY PRONTO",
+        "pt": "EM BREVE"
+      },
+      "title": {
+        "it": "Twitch Retold Mobile: Sviluppo in Fase Finale! 📱",
+        "en": "Twitch Retold Mobile: Development Nearly Complete! 📱",
+        "fr": "Twitch Retold Mobile : Développement presque terminé ! 📱",
+        "de": "Twitch Retold Mobile: Entwicklung fast abgeschlossen! 📱",
+        "es": "Twitch Retold Mobile: ¡Desarrollo casi terminado! 📱",
+        "pt": "Twitch Retold Mobile: Desenvolvimento quase concluído! 📱"
+      },
+      "desc": {
+        "it": "L'applicazione ufficiale per dispositivi mobili (Android e iOS) ha quasi ultimato lo sviluppo! Presto potrai goderti l'esperienza Twitch senza pubblicità, con RetoldShield e audio avanzato ovunque ti trovi.",
+        "en": "The official mobile app (Android & iOS) has almost completed development! Soon you'll be able to enjoy the ad-free Twitch experience with RetoldShield and advanced audio wherever you go.",
+        "fr": "L'application mobile officielle (Android & iOS) a presque terminé son développement ! Bientôt, vous pourrez profiter de l'expérience Twitch sans publicité, avec RetoldShield et l'audio avancé où que vous soyez.",
+        "de": "Die offizielle mobile App (Android & iOS) hat die Entwicklung fast abgeschlossen! Bald können Sie das werbefreie Twitch-Erlebnis mit RetoldShield und fortschrittlichem Audio überall genießen.",
+        "es": "¡La aplicación móvil oficial (Android e iOS) está a punto de finalizar su desarrollo! Muy pronto podrás disfrutar de Twitch sin anuncios, con RetoldShield y audio avanzado dondequiera que vayas.",
+        "pt": "O aplicativo mobile oficial (Android e iOS) está quase com o desenvolvimento concluído! Em breve você poderá aproveitar a Twitch sem anúncios, com RetoldShield e áudio avançado onde quer que esteja."
+      }
+    },
+    "items": [
+      {
+        "type": "feature",
+        "title": {
+          "it": "Supporto al progetto con GitHub Star",
+          "en": "Project Support via GitHub Star",
+          "fr": "Soutien au projet via GitHub Star",
+          "de": "Projektunterstützung via GitHub Star",
+          "es": "Apoyo al proyecto mediante GitHub Star",
+          "pt": "Apoio ao projeto via GitHub Star"
+        },
+        "desc": {
+          "it": "Per sostenere la crescita del progetto e far espandere la community, l'accesso a funzionalità avanzate come RetoldShield e i VOD per soli abbonati richiede ora una stella su GitHub: un piccolo gesto 100% gratuito che ci dà la visibilità necessaria per continuare a migliorare l'app per tutti.",
+          "en": "To support project growth and expand our community, access to advanced features like RetoldShield and Sub-Only VODs now requires a GitHub star: a 100% free gesture that gives us the visibility needed to keep improving the app for everyone.",
+          "fr": "Pour soutenir la croissance du projet et développer notre communauté, l'accès aux fonctionnalités avancées comme RetoldShield et les VOD réservées aux abonnés nécessite désormais une étoile sur GitHub : un geste 100% gratuit qui nous donne la visibilité indispensable pour continuer à faire évoluer l'application pour tous.",
+          "de": "Um das Wachstum des Projekts zu unterstützen und die Community zu erweitern, erfordert der Zugriff auf erweiterte Funktionen wie RetoldShield und Sub-Only VODs jetzt einen GitHub-Stern: eine 100% kostenlose Geste, die uns die nötige Sichtbarkeit verleiht, um die App für alle weiter zu verbessern.",
+          "es": "Para apoyar el crecimiento del proyecto y expandir nuestra comunidad, el acceso a funciones avanzadas como RetoldShield y los VOD para suscriptores requiere ahora una estrella en GitHub: un gesto 100% gratuito que nos brinda la visibilidad necesaria para seguir mejorando la aplicación para todos.",
+          "pt": "Para apoiar o crescimento do projeto e expandir nossa comunidade, o acesso a recursos avançados como o RetoldShield e VODs para inscritos agora requer uma estrela no GitHub: um gesto 100% gratuito que nos dá a visibilidade necessária para continuar aprimorando o aplicativo para todos."
+        }
+      },
+      {
+        "type": "feature",
+        "title": {
+          "it": "Verifica sicura con GitHub Device Code",
+          "en": "Secure GitHub Device Code Verification",
+          "fr": "Vérification sécurisée par GitHub Device Code",
+          "de": "Sichere Verifizierung per GitHub Device Code",
+          "es": "Verificación segura mediante GitHub Device Code",
+          "pt": "Verificação segura via GitHub Device Code"
+        },
+        "desc": {
+          "it": "Collegamento sicuro dell'account tramite codice dispositivo temporaneo (senza password né token personali) per verificare la presenza della stella con certezza crittografica.",
+          "en": "Secure account linking using a temporary device code (no passwords or personal tokens needed) to verify your star with cryptographic certainty.",
+          "fr": "Connexion sécurisée du compte via un code d'appareil temporaire (sans mot de passe ni jeton personnel) pour vérifier votre étoile avec certitude cryptographique.",
+          "de": "Sichere Kontoverknüpfung über temporären Gerätecode (ohne Passwörter oder persönliche Tokens), um Ihren Stern kryptografisch sicher zu bestätigen.",
+          "es": "Vinculación segura de la cuenta mediante código temporal de dispositivo (sin contraseñas ni tokens personales) para verificar la estrella con certeza criptográfica.",
+          "pt": "Vinculação segura da conta via código temporário de dispositivo (sem senhas ou tokens pessoais) para verificar a estrela com certeza criptográfica."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "Stabilità RetoldShield e cambio risoluzione",
+          "en": "RetoldShield Stability and Resolution Switching",
+          "fr": "Stabilité de RetoldShield et changement de résolution",
+          "de": "RetoldShield-Stabilität und Auflösungswechsel",
+          "es": "Estabilidad de RetoldShield y cambio de resolución",
+          "pt": "Estabilidade do RetoldShield e troca de resolução"
+        },
+        "desc": {
+          "it": "Risolti problemi di instabilità e freeze del flusso video durante il cambio manuale di risoluzione e nei cambi di qualità automatica con RetoldShield attivo.",
+          "en": "Fixed video stream stuttering and freeze issues during manual resolution changes and automatic quality shifts while RetoldShield is active.",
+          "fr": "Correction des problèmes de saccades et de gel du flux vidéo lors des changements manuels ou automatiques de résolution lorsque RetoldShield est actif.",
+          "de": "Probleme mit Ruckeln und Einfrieren des Videostreams bei manuellen oder automatischen Qualitätswechseln mit aktivem RetoldShield wurden behoben.",
+          "es": "Solucionados los problemas de tirones y congelación del vídeo durante el cambio manual de resolución y en ajustes automáticos de calidad con RetoldShield activo.",
+          "pt": "Corrigidos problemas de travamento e congelamento do fluxo de vídeo durante a troca manual de resolução e mudanças automáticas de qualidade com o RetoldShield ativo."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "Retold Mixer e Persistenza Impostazioni",
+          "en": "Retold Mixer and Settings Persistence",
+          "fr": "Retold Mixer et persistance des paramètres",
+          "de": "Retold Mixer und Einstellungs-Persistenz",
+          "es": "Retold Mixer y persistencia de configuración",
+          "pt": "Retold Mixer e persistência de configurações"
+        },
+        "desc": {
+          "it": "Esteso il supporto completo a 6 lingue (IT, EN, FR, DE, ES, PT) e risolto il problema di persistenza dell'interruttore al riavvio dell'applicazione.",
+          "en": "Added full 6-language support (IT, EN, FR, DE, ES, PT) and fixed the toggle persistence issue across app restarts.",
+          "fr": "Ajout du support complet en 6 langues (IT, EN, FR, DE, ES, PT) et correction de la persistance de l'interrupteur au redémarrage de l'application.",
+          "de": "Vollständige Unterstützung für 6 Sprachen (IT, EN, FR, DE, ES, PT) hinzugefügt und das Problem mit der Schalter-Persistenz beim Neustart behoben.",
+          "es": "Añadido soporte completo para 6 idiomas (IT, EN, FR, DE, ES, PT) y solucionado el problema de persistencia del interruptor tras reiniciar la aplicación.",
+          "pt": "Adicionado suporte completo para 6 idiomas (IT, EN, FR, DE, ES, PT) e corrigido o problema de persistência do botão ao reiniciar o aplicativo."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Miglioramenti generali dell'interfaccia",
+          "en": "General UI Improvements",
+          "fr": "Améliorations générales de l'interface",
+          "de": "Allgemeine UI-Verbesserungen",
+          "es": "Mejoras generales de la interfaz",
+          "pt": "Melhorias gerais na interface"
+        },
+        "desc": {
+          "it": "Affinamenti grafici, testi tradotti corretti e miglioramento generale della stabilità dell'applicazione.",
+          "en": "Visual tweaks, corrected translations, and overall app stability improvements.",
+          "fr": "Ajustements visuels, corrections de traductions et amélioration globale de la stabilité de l'application.",
+          "de": "Visuelle Anpassungen, korrigierte Übersetzungen und allgemeine Stabilitätsverbesserungen der Anwendung.",
+          "es": "Ajustes visuales, correcciones en traducciones y mejoras generales en la estabilidad de la aplicación.",
+          "pt": "Ajustes visuais, correções de tradução e melhorias gerais na estabilidade do aplicativo."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.1.0",
     "date": "2026-09-09",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.1.0 - Stabilità, Retold Mixer & RetoldShield",
       "en": "Twitch Retold v2.1.0 - Stability, Retold Mixer & RetoldShield",

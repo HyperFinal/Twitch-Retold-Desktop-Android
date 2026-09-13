@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="img/TwitchRetold_Logo.png" alt="Twitch Retold Logo" width="130" style="margin-bottom: 12px;" />
 
@@ -28,7 +28,7 @@
 ## 📸 App Preview & Interface
 
 <p align="center">
-  <img src="img/app/Homepage.jpg" alt="Twitch Retold Homepage" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
+  <img src="img/app/Homepage.png" alt="Twitch Retold Homepage" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
 </p>
 
 <p align="center">
@@ -195,5 +195,5 @@ Twitch Retold is independent and **100% free**. If you appreciate our work and w
 ---
 
 <div align="center">
-<sub>Twitch Retold is an independent open-source project and is not affiliated with, endorsed by, or sponsored by Twitch Interactive, Inc. or Amazon.com, Inc.</sub>
+<sub>Twitch Retold is an independent project and is not affiliated with, endorsed by, or sponsored by Twitch Interactive, Inc. or Amazon.com, Inc.</sub>
 </div>
