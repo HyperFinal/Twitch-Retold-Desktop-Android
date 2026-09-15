@@ -1,25 +1,23 @@
 <div align="center">
 
-<img src="img/TwitchRetold_Logo.png" alt="Twitch Retold Logo" width="130" style="margin-bottom: 12px;" />
+# 🟣 Twitch Retold
 
-# Twitch Retold
-
-**The Ultimate, Ultra-Clean & Ad-Free Desktop Experience for Twitch**
+**The Ultimate, Ultra-Clean & Ad-Free Desktop & Mobile Experience for Twitch**
 
 [![Version](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch?color=9146FF&label=version&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
+[![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases)
 [![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
 [![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20DEB-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
-[![Telegram](https://img.shields.io/badge/Telegram-Official%20Channel-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/twitch_retold)
 [![Ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-FF5E5B.svg?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/hyperfinal)
 
 ---
 
 <p align="center">
-  <b>Twitch Retold</b> is a modern, standalone desktop client engineered to provide the cleanest, fastest, and most immersive Twitch viewing experience — completely free, ad-free, and powered by our revolutionary proprietary engine: <b>RetoldShield</b>.
+  <b>Twitch Retold</b> is a modern, standalone client engineered to provide the cleanest, fastest, and most immersive Twitch viewing experience on Desktop and Android — completely free and ad-free.
 </p>
 
-[📥 **Download Latest Releases (Windows / macOS / Linux)**](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest) • [📢 **Telegram Channel**](https://t.me/twitch_retold) • [☕ **Support on Ko-fi**](https://ko-fi.com/hyperfinal)
+[📥 **Download Latest Releases (Windows / Android / macOS / Linux)**](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases) • [☕ **Support on Ko-fi**](https://ko-fi.com/hyperfinal)
 
 ---
 
@@ -55,7 +53,7 @@
 
 ## 🛡️ RetoldShield — The New Standard in Ad-Free Streaming
 
-With this release, **Twitch Retold officially transitions to RetoldShield as its default primary built-in engine**.
+**Twitch Retold** features **RetoldShield as its default primary built-in engine** on both Desktop and Android.
 
 Unlike traditional adblock proxies that downscale video to **480p/360p** with heavy lag (+500ms), or legacy scripts that suffer from **stream blackouts and buffering loops**, **RetoldShield** delivers **100% ad elimination at native 1080p60 Source resolution with zero playback interruptions, zero proxy lag, and direct Twitch CDN delivery**.
 
@@ -110,7 +108,7 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 
 ### 🌙 2. Deep Black OLED Theme
 * Crafted for OLED and high-contrast IPS displays with pure `#000000` backgrounds and vibrant neon purple accents (`#a970ff`).
-* Instant real-time toggle in Settings (<kbd>F2</kbd>) without requiring app restart.
+* Instant real-time toggle in Settings (<kbd>F2</kbd> on Desktop / Settings dialog on Mobile).
 
 ### 🔓 3. Sub-Only VOD Unlocker
 * Watch subscriber-locked past broadcasts, highlights, and VODs seamlessly.
@@ -124,17 +122,37 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 * Sequential VOD playback with automatic next-episode queuing for series, podcasts, and playthroughs.
 
 ### ⏱️ 6. Watch History & Smart Timestamp Resume
-* Quick-access "Last Live / VODs" navigation bar tab to resume channels from your exact saved position.
+* Quick-access "Last Live / VODs" navigation to resume channels from your exact saved position.
 * Automatically converts finished live broadcasts into historical VODs.
 
 ### ⚙️ 7. Full Localization & Customization
 * 100% translated across **6 languages**: English, Italian, French, German, Spanish, and Portuguese.
 * Modular toggles: customize titlebar, hide stories, clean sidebar, and adjust layout clutter.
-* Fully localized Live Debug Console for advanced diagnostics.
 
-### 🔄 8. Native 1-Click Auto-Updater
-* Periodic background checking with glowing toast alerts when new versions drop.
-* One-click download and instant seamless restart.
+### 🔄 8. Native Auto-Updater
+* Periodic background checking with alert toasts when new releases drop.
+* Automatic in-app download and installation on both Desktop and Android.
+
+---
+
+## 📱 Mobile Features (Android)
+
+<div align="center">
+
+[![Android](https://img.shields.io/badge/Android-APK%20Direct%20Download-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases)
+
+</div>
+
+The native Android app brings the ultra-clean, ad-free Twitch Retold experience straight to your mobile device:
+
+- 🛡️ **Zero-Ad Stream Protection**: Real-time ad-block for live streams and VODs powered by RetoldShield.
+- 🔓 **Sub-Only VOD Unlocker**: Watch subscriber-locked past broadcasts freely without restrictions.
+- 🎭 **Complete Emote Ecosystem**: Native rendering of 7TV, BetterTTV, and FrankerFaceZ animated emotes in live chat.
+- 📺 **Native Picture-in-Picture (PiP)**: Keep watching in a floating player while navigating other apps.
+- 🎧 **Background Audio & Lockscreen Playback**: Listen to streams with your screen off, complete with notification media controls.
+- 🌙 **Deep OLED Dark Theme**: Deep black aesthetic tailored for AMOLED and OLED displays.
+- 🔄 **Integrated In-App Auto-Updater**: Directly checks, downloads, and prompts installation for new APK releases.
+- ⭐ **StarGate 1-Tap Community Unlock**: Effortless GitHub verification via pre-filled Custom Tabs to unlock RetoldShield & Sub-Only VODs.
 
 ---
 
@@ -143,6 +161,10 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 ### 🪟 Windows:
 1. Download **`Twitch Retold Setup <version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest).
 2. Run the installer. If Windows Defender SmartScreen appears, click **"More info"** and then **"Run anyway"**.
+
+### 📱 Android:
+1. Download **`Twitch_retold_<version>.apk`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases).
+2. Open the downloaded APK on your Android device and confirm installation. (If prompted, enable *"Install unknown apps"* for your browser or file manager).
 
 ### 🍎 macOS:
 1. Download **`Twitch.Retold-<version>.dmg`** (Universal: Apple Silicon M1/M2/M3/M4 & Intel).
@@ -154,7 +176,7 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 
 ---
 
-## ⌨️ Shortcuts & Hotkeys
+## ⌨️ Shortcuts & Hotkeys (Desktop)
 
 | Shortcut | Action |
 | :--- | :--- |
@@ -178,15 +200,25 @@ Stay instantly informed about new releases, critical hotfixes, and direct instal
 
 ---
 
+## ⭐ Show Your Support
+
+If you find **Twitch Retold** useful, please consider giving this repository a **Star** ⭐ on GitHub and sharing it with friends! It helps more people find the project and motivates ongoing development.
+
+---
+
 ## ☕ Support the Project
 
 Twitch Retold is independent and **100% free**. If you appreciate our work and want to support ongoing development:
 
 <div align="center">
 
+<br>
+
 [![Support on Ko-fi](https://img.shields.io/badge/☕%20Buy%20me%20a%20coffee%20on%20Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/hyperfinal)
 
 **👉 [https://ko-fi.com/hyperfinal](https://ko-fi.com/hyperfinal)**
+
+<br>
 
 *Every coffee helps keep Twitch Retold actively updated and ad-free. Thank you! ❤️*
 
