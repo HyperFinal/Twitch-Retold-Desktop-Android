@@ -135,27 +135,6 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 
 ---
 
-## 📱 Mobile Features (Android)
-
-<div align="center">
-
-[![Android](https://img.shields.io/badge/Android-APK%20Direct%20Download-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases)
-
-</div>
-
-The native Android app brings the ultra-clean, ad-free Twitch Retold experience straight to your mobile device:
-
-- 🛡️ **Zero-Ad Stream Protection**: Real-time ad-block for live streams and VODs powered by RetoldShield.
-- 🔓 **Sub-Only VOD Unlocker**: Watch subscriber-locked past broadcasts freely without restrictions.
-- 🎭 **Complete Emote Ecosystem**: Native rendering of 7TV, BetterTTV, and FrankerFaceZ animated emotes in live chat.
-- 📺 **Native Picture-in-Picture (PiP)**: Keep watching in a floating player while navigating other apps.
-- 🎧 **Background Audio & Lockscreen Playback**: Listen to streams with your screen off, complete with notification media controls.
-- 🌙 **Deep OLED Dark Theme**: Deep black aesthetic tailored for AMOLED and OLED displays.
-- 🔄 **Integrated In-App Auto-Updater**: Directly checks, downloads, and prompts installation for new APK releases.
-- ⭐ **StarGate 1-Tap Community Unlock**: Effortless GitHub verification via pre-filled Custom Tabs to unlock RetoldShield & Sub-Only VODs.
-
----
-
 ## 🚀 Installation & Getting Started
 
 ### 🪟 Windows:
