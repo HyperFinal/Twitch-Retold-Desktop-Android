@@ -4,7 +4,8 @@
 
 **The Ultimate, Ultra-Clean & Ad-Free Desktop & Mobile Experience for Twitch**
 
-[![Version](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch?color=9146FF&label=version&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
+[![Desktop](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch?filter=v*&color=9146FF&label=desktop&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
+[![Android](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch?filter=mobile-v*&color=3DDC84&label=android&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases)
 [![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
 [![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases)
 [![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases/latest)
