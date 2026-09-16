@@ -25,29 +25,46 @@
 
 ## 📸 App Preview & Interface
 
-<p align="center">
-  <img src="img/app/Homepage.png" alt="Twitch Retold Homepage" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
-</p>
+> 👉 **Scroll the strips sideways** to browse every screenshot — **click any one to open it full size.**
 
-<p align="center">
-  <img src="img/app/CustomVod.jpg" alt="Sub-Only VOD Unlocker & Player" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
-</p>
+### 📱 Android
 
-<p align="center">
-  <img src="img/app/Playlist.jpg" alt="Series & Playlist Player" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
-</p>
+<table>
+  <tr>
+    <td align="center"><a href="img/mobile/M1.jpg"><img src="img/mobile/M1.jpg" alt="Twitch Retold Mobile 1" width="260" /></a></td>
+    <td align="center"><a href="img/mobile/M2.jpg"><img src="img/mobile/M2.jpg" alt="Twitch Retold Mobile 2" width="260" /></a></td>
+    <td align="center"><a href="img/mobile/M3.jpg"><img src="img/mobile/M3.jpg" alt="Twitch Retold Mobile 3" width="260" /></a></td>
+    <td align="center"><a href="img/mobile/M4.jpg"><img src="img/mobile/M4.jpg" alt="Twitch Retold Mobile 4" width="260" /></a></td>
+    <td align="center"><a href="img/mobile/M5.jpg"><img src="img/mobile/M5.jpg" alt="Twitch Retold Mobile 5" width="260" /></a></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="img/app/RetoldMenu.png" alt="RetoldShield Settings & Control Panel" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
-</p>
+### 🖥️ Desktop
 
-<p align="center">
-  <img src="img/app/RetoldMixer.png" alt="Retold Mixer DSP Audio Suite" width="100%" style="border-radius: 10px; margin-bottom: 16px;" />
-</p>
+| Homepage | Sub-Only VOD Unlocker | Series &amp; Playlist Player | RetoldShield Control Panel | Retold Mixer DSP Suite | Last Watched Navigation |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <a href="img/app/Homepage.png"><img src="img/app/Homepage.png" alt="Homepage" width="560" /></a> | <a href="img/app/CustomVod.jpg"><img src="img/app/CustomVod.jpg" alt="Sub-Only VOD Unlocker" width="560" /></a> | <a href="img/app/Playlist.jpg"><img src="img/app/Playlist.jpg" alt="Series &amp; Playlist Player" width="560" /></a> | <a href="img/app/RetoldMenu.png"><img src="img/app/RetoldMenu.png" alt="RetoldShield Control Panel" width="560" /></a> | <a href="img/app/RetoldMixer.png"><img src="img/app/RetoldMixer.png" alt="Retold Mixer DSP Suite" width="560" /></a> | <a href="img/app/LastWatchedMenu.png"><img src="img/app/LastWatchedMenu.png" alt="Last Watched Navigation" width="560" /></a> |
 
-<p align="center">
-  <img src="img/app/LastWatchedMenu.png" alt="Last Watched Quick Navigation" width="100%" style="border-radius: 10px;" />
-</p>
+---
+
+## 📱 Mobile Features (Android)
+
+<div align="center">
+
+[![Android](https://img.shields.io/badge/Android-APK%20Direct%20Download-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-App-Version-of-Twitch/releases)
+
+</div>
+
+The native Android app brings the ultra-clean, ad-free Twitch Retold experience straight to your mobile device:
+
+- 🛡️ **Zero-Ad Stream Protection**: Real-time ad-block for live streams and VODs powered by RetoldShield.
+- 🔓 **Sub-Only VOD Unlocker**: Watch subscriber-locked past broadcasts freely without restrictions.
+- 🎭 **Complete Emote Ecosystem**: Native rendering of 7TV, BetterTTV, and FrankerFaceZ animated emotes in live chat.
+- 📺 **Native Picture-in-Picture (PiP)**: Keep watching in a floating player while navigating other apps.
+- 🎧 **Background Audio & Lockscreen Playback (VODs)**: Keep listening to VODs with your screen off, complete with notification media controls.
+- 🌙 **Deep OLED Dark Theme**: Deep black aesthetic tailored for AMOLED and OLED displays.
+- 🔄 **Integrated In-App Auto-Updater**: Directly checks, downloads, and prompts installation for new APK releases.
+- ⭐ **StarGate 1-Tap Community Unlock**: Effortless GitHub verification via pre-filled Custom Tabs to unlock RetoldShield & Sub-Only VODs.
 
 ---
 
@@ -132,8 +149,6 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 ### 🔄 8. Native Auto-Updater
 * Periodic background checking with alert toasts when new releases drop.
 * Automatic in-app download and installation on both Desktop and Android.
-
----
 
 ## 🚀 Installation & Getting Started
 
