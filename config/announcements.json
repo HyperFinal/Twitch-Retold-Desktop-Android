@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "announcements": [
+    {
+      "id": "mobile-release",
+      "source": "latest-mobile-release",
+      "priority": 100,
+      "level": "news",
+      "platforms": ["desktop"],
+      "art": "phone",
+      "badge": {
+        "it": "Android {version}",
+        "en": "Android {version}",
+        "fr": "Android {version}",
+        "de": "Android {version}",
+        "es": "Android {version}",
+        "pt": "Android {version}"
+      },
+      "title": {
+        "it": "Twitch Retold Mobile {version} è disponibile",
+        "en": "Twitch Retold Mobile {version} is out",
+        "fr": "Twitch Retold Mobile {version} est disponible",
+        "de": "Twitch Retold Mobile {version} ist da",
+        "es": "Twitch Retold Mobile {version} ya está disponible",
+        "pt": "Twitch Retold Mobile {version} está disponível"
+      },
+      "body": {
+        "it": "Twitch Retold è anche sul telefono: le stesse protezioni del desktop, in un'app pensata per Android. Inquadra il codice con il telefono per scaricarla.",
+        "en": "Twitch Retold is on your phone too: the same protection as the desktop app, in an app built for Android. Scan the code with your phone to get it.",
+        "fr": "Twitch Retold est aussi sur téléphone : les mêmes protections que sur ordinateur, dans une app pensée pour Android. Scannez le code avec votre téléphone pour la télécharger.",
+        "de": "Twitch Retold gibt es auch fürs Smartphone: derselbe Schutz wie am Desktop, in einer App für Android. Scanne den Code mit deinem Handy, um sie zu laden.",
+        "es": "Twitch Retold también está en el móvil: la misma protección que en el escritorio, en una app pensada para Android. Escanea el código con tu móvil para descargarla.",
+        "pt": "O Twitch Retold também está no celular: a mesma proteção do desktop, num app feito para Android. Escaneie o código com o celular para baixar."
+      },
+      "bullets": {
+        "it": ["RetoldShield e VOD per abbonati, come sul desktop", "Schermate nuove: Home, Seguiti, Ultime e Sfoglia", "Picture-in-Picture e audio dei VOD a schermo spento"],
+        "en": ["RetoldShield and subscriber-only VODs, just like on desktop", "New screens: Home, Following, Recent and Browse", "Picture-in-Picture and VOD audio with the screen off"],
+        "fr": ["RetoldShield et VOD réservées aux abonnés, comme sur ordinateur", "Nouveaux écrans : Accueil, Suivis, Récents et Parcourir", "Picture-in-Picture et audio des VOD écran éteint"],
+        "de": ["RetoldShield und Abonnenten-VODs wie am Desktop", "Neue Ansichten: Start, Gefolgt, Verlauf und Entdecken", "Picture-in-Picture und VOD-Ton bei ausgeschaltetem Bildschirm"],
+        "es": ["RetoldShield y VODs solo para suscriptores, como en el escritorio", "Pantallas nuevas: Inicio, Seguidos, Recientes y Explorar", "Picture-in-Picture y audio de los VODs con la pantalla apagada"],
+        "pt": ["RetoldShield e VODs exclusivos para inscritos, como no desktop", "Telas novas: Início, Seguindo, Recentes e Explorar", "Picture-in-Picture e áudio dos VODs com a tela desligada"]
+      },
+      "cta": {
+        "label": {
+          "it": "Scarica per Android",
+          "en": "Get it for Android",
+          "fr": "Télécharger pour Android",
+          "de": "Für Android herunterladen",
+          "es": "Descargar para Android",
+          "pt": "Baixar para Android"
+        }
+      },
+      "qr": true
+    }
+  ]
+}
