@@ -27,6 +27,21 @@
 
 </div>
 
+## 🧪 VirusTotal Scans
+
+Every installer is scanned on VirusTotal before it is announced. Twitch Retold is not code-signed, so a few engines may flag it generically: the full reports are public, and the SHA-256 lets you check that your download is the same file.
+
+| Platform | Version | File | Report |
+|---|---|---|---|
+| 🪟 Windows | v2.5.0 | `Twitch-Retold-Setup-2.5.0.exe` | [🔎 VirusTotal](https://www.virustotal.com/gui/file/71c883bd8beafb814dded9d64287444ca5170a7edbbbf366a20c5decce42d5ed) |
+| 📱 Android | v1.0.1 | `Twitch_retold_1.0.1.apk` | [🔎 VirusTotal](https://www.virustotal.com/gui/file/9ea7b4f5cb53868026e99c24c0d618ff959f346a7dd7368e112853dd8800f7de) |
+
+**SHA-256**
+- Windows: `71c883bd8beafb814dded9d64287444ca5170a7edbbbf366a20c5decce42d5ed`
+- Android: `9ea7b4f5cb53868026e99c24c0d618ff959f346a7dd7368e112853dd8800f7de`
+
+---
+
 ## 📸 App Preview & Interface
 
 > 👉 **Scroll the strips sideways** to browse every screenshot — **click any one to open it full size.**
@@ -171,17 +186,6 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 ### 🐧 Linux:
 1. **AppImage** (Universal): Download `Twitch.Retold-<version>.AppImage`, make it executable (`chmod +x Twitch.Retold-*.AppImage`), and launch.
 2. **Debian / Ubuntu / Mint**: Download `twitch-retold_*_amd64.deb` and run `sudo dpkg -i twitch-retold_*_amd64.deb`.
-
-## 🧪 VirusTotal Scans
-
-Every installer is scanned on VirusTotal before it is announced. Twitch Retold is not code-signed, so a few engines may flag it generically: the full reports are public.
-
-| Platform | Version | File | Report |
-|---|---|---|---|
-| 🪟 Windows | v2.5.0 | `Twitch-Retold-Setup-2.5.0.exe` | _Report coming soon_ |
-| 📱 Android | v1.0.1 | `Twitch_retold_1.0.1.apk` | _Report coming soon_ |
-
----
 
 ## ⌨️ Shortcuts & Hotkeys (Desktop)
 
