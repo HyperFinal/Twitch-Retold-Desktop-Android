@@ -1,8 +1,117 @@
 [
   {
+    "version": "2.5.0",
+    "date": "2026-09-17",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.5.0 - Nuovo design, Player V2 e avvisi",
+      "en": "Twitch Retold v2.5.0 - New design, Player V2 and announcements",
+      "fr": "Twitch Retold v2.5.0 - Nouveau design, Player V2 et annonces",
+      "de": "Twitch Retold v2.5.0 - Neues Design, Player V2 und Hinweise",
+      "es": "Twitch Retold v2.5.0 - Nuevo diseño, Player V2 y avisos",
+      "pt": "Twitch Retold v2.5.0 - Novo design, Player V2 e avisos"
+    },
+    "items": [
+      {
+        "type": "feature",
+        "title": {
+          "it": "Lo stesso stile dell'app mobile",
+          "en": "The same look as the mobile app",
+          "fr": "Le même style que l'application mobile",
+          "de": "Derselbe Look wie die Mobile-App",
+          "es": "El mismo estilo que la app móvil",
+          "pt": "O mesmo estilo do app mobile"
+        },
+        "desc": {
+          "it": "Barra superiore con ricerca rapida (Ctrl+K), colonna laterale con i canali seguiti in diretta e nuove schermate Home, Seguiti, Sfoglia e Ultime. Le pagine native di Twitch, come abbonamenti e sub regalate, continuano a funzionare.",
+          "en": "A top bar with quick search (Ctrl+K), a side column with your followed channels that are live, and new Home, Following, Browse and Recent screens. Native Twitch pages, such as subscriptions and gift subs, keep working.",
+          "fr": "Une barre supérieure avec recherche rapide (Ctrl+K), une colonne latérale avec les chaînes suivies en direct et de nouveaux écrans Accueil, Suivis, Parcourir et Récents. Les pages natives de Twitch, comme les abonnements et les subs offerts, fonctionnent toujours.",
+          "de": "Eine obere Leiste mit Schnellsuche (Strg+K), eine Seitenspalte mit gefolgten Kanälen, die live sind, und neue Bildschirme Startseite, Gefolgt, Durchsuchen und Zuletzt. Native Twitch-Seiten wie Abos und verschenkte Subs funktionieren weiterhin.",
+          "es": "Una barra superior con búsqueda rápida (Ctrl+K), una columna lateral con los canales seguidos en directo y nuevas pantallas Inicio, Seguidos, Explorar y Recientes. Las páginas nativas de Twitch, como suscripciones y subs regaladas, siguen funcionando.",
+          "pt": "Uma barra superior com busca rápida (Ctrl+K), uma coluna lateral com os canais seguidos ao vivo e novas telas Início, Seguindo, Explorar e Recentes. As páginas nativas da Twitch, como inscrições e subs de presente, continuam funcionando."
+        }
+      },
+      {
+        "type": "feature",
+        "title": {
+          "it": "Player V2 per live e VOD",
+          "en": "Player V2 for live streams and VODs",
+          "fr": "Player V2 pour les directs et les VOD",
+          "de": "Player V2 für Livestreams und VODs",
+          "es": "Player V2 para directos y VOD",
+          "pt": "Player V2 para lives e VODs"
+        },
+        "desc": {
+          "it": "Il player dell'app mobile arriva sul desktop: stessi controlli, qualità e velocità in un pannello, chat di lato nei VOD e ripresa dal punto in cui eri rimasto.",
+          "en": "The mobile app player comes to desktop: the same controls, quality and speed in one panel, side chat on VODs and resume from where you left off.",
+          "fr": "Le lecteur de l'application mobile arrive sur ordinateur : les mêmes commandes, qualité et vitesse dans un panneau, chat sur le côté pour les VOD et reprise là où vous vous étiez arrêté.",
+          "de": "Der Player der Mobile-App kommt auf den Desktop: dieselben Steuerelemente, Qualität und Geschwindigkeit in einem Panel, seitlicher Chat bei VODs und Fortsetzen an der letzten Stelle.",
+          "es": "El reproductor de la app móvil llega al escritorio: los mismos controles, calidad y velocidad en un panel, chat lateral en los VOD y reanudación desde donde lo dejaste.",
+          "pt": "O player do app mobile chega ao desktop: os mesmos controles, qualidade e velocidade em um painel, chat lateral nos VODs e retomada de onde você parou."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Personalizza la nuova interfaccia",
+          "en": "Customize the new interface",
+          "fr": "Personnalisez la nouvelle interface",
+          "de": "Passe die neue Oberfläche an",
+          "es": "Personaliza la nueva interfaz",
+          "pt": "Personalize a nova interface"
+        },
+        "desc": {
+          "it": "Nelle Impostazioni scegli cosa mostrare nella barra e nella colonna, la pagina iniziale, la dimensione delle anteprime, i controlli del player e le animazioni. La casella della chat è stata ridisegnata.",
+          "en": "In Settings choose what the bar and the column show, the start page, the preview size, the player controls and the animations. The chat box has been redesigned.",
+          "fr": "Dans les Paramètres, choisissez ce qu’affichent la barre et la colonne, la page de démarrage, la taille des aperçus, les commandes du lecteur et les animations. La zone de chat a été redessinée.",
+          "de": "In den Einstellungen wählst du, was Leiste und Spalte zeigen, die Startseite, die Vorschaugröße, die Player-Steuerung und die Animationen. Das Chat-Eingabefeld wurde neu gestaltet.",
+          "es": "En Ajustes elige qué muestran la barra y la columna, la página de inicio, el tamaño de las miniaturas, los controles del reproductor y las animaciones. El cuadro del chat se ha rediseñado.",
+          "pt": "Nas Configurações escolha o que a barra e a coluna mostram, a página inicial, o tamanho das miniaturas, os controles do player e as animações. A caixa do chat foi redesenhada."
+        }
+      },
+      {
+        "type": "feature",
+        "title": {
+          "it": "Avvisi dal team",
+          "en": "Announcements from the team",
+          "fr": "Annonces de l'équipe",
+          "de": "Hinweise vom Team",
+          "es": "Avisos del equipo",
+          "pt": "Avisos da equipe"
+        },
+        "desc": {
+          "it": "Una finestra mostra le novità importanti una sola volta e nella tua lingua, a partire dall'ultima versione di Twitch Retold per Android, con un codice QR da inquadrare con il telefono.",
+          "en": "A window shows important news only once and in your language, starting with the latest Twitch Retold for Android, with a QR code to scan with your phone.",
+          "fr": "Une fenêtre affiche les nouveautés importantes une seule fois et dans votre langue, à commencer par la dernière version de Twitch Retold pour Android, avec un code QR à scanner avec votre téléphone.",
+          "de": "Ein Fenster zeigt wichtige Neuigkeiten nur einmal und in deiner Sprache, beginnend mit der neuesten Version von Twitch Retold für Android, mit einem QR-Code zum Scannen mit dem Handy.",
+          "es": "Una ventana muestra las novedades importantes una sola vez y en tu idioma, empezando por la última versión de Twitch Retold para Android, con un código QR para escanear con el móvil.",
+          "pt": "Uma janela mostra as novidades importantes uma única vez e no seu idioma, começando pela versão mais recente do Twitch Retold para Android, com um código QR para escanear com o celular."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "Aggiornamenti automatici affidabili",
+          "en": "Reliable automatic updates",
+          "fr": "Mises à jour automatiques fiables",
+          "de": "Zuverlässige automatische Updates",
+          "es": "Actualizaciones automáticas fiables",
+          "pt": "Atualizações automáticas confiáveis"
+        },
+        "desc": {
+          "it": "L'app desktop e quella Android pubblicano nello stesso posto: ora il controllo degli aggiornamenti cerca solo le versioni desktop e non si ferma più quando esce una versione mobile.",
+          "en": "The desktop and Android apps publish in the same place: the update check now looks only at desktop versions and no longer stops when a mobile version comes out.",
+          "fr": "Les applications ordinateur et Android publient au même endroit : la recherche de mises à jour ne regarde plus que les versions ordinateur et ne s’arrête plus quand une version mobile sort.",
+          "de": "Desktop- und Android-App veröffentlichen am selben Ort: Die Update-Prüfung sucht jetzt nur Desktop-Versionen und bleibt nicht mehr hängen, wenn eine Mobile-Version erscheint.",
+          "es": "Las apps de escritorio y Android publican en el mismo sitio: la búsqueda de actualizaciones ahora solo mira las versiones de escritorio y ya no se detiene cuando sale una versión móvil.",
+          "pt": "Os apps desktop e Android publicam no mesmo lugar: a verificação de atualizações agora olha só as versões desktop e não para mais quando sai uma versão mobile."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.1.1",
     "date": "2026-09-13",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.1.1 - GitHub Star Gate, Stabilità Player & RetoldShield",
       "en": "Twitch Retold v2.1.1 - GitHub Star Gate, Player Stability & RetoldShield",
@@ -13,28 +122,28 @@
     },
     "banner": {
       "badge": {
-        "it": "IN ARRIVO",
-        "en": "COMING SOON",
-        "fr": "BIENTÔT DISPONIBLE",
-        "de": "BALD VERFÜGBAR",
-        "es": "MUY PRONTO",
-        "pt": "EM BREVE"
+        "it": "DISPONIBILE",
+        "en": "AVAILABLE",
+        "fr": "DISPONIBLE",
+        "de": "VERFÜGBAR",
+        "es": "DISPONIBLE",
+        "pt": "DISPONÍVEL"
       },
       "title": {
-        "it": "Twitch Retold Mobile: Sviluppo in Fase Finale! 📱",
-        "en": "Twitch Retold Mobile: Development Nearly Complete! 📱",
-        "fr": "Twitch Retold Mobile : Développement presque terminé ! 📱",
-        "de": "Twitch Retold Mobile: Entwicklung fast abgeschlossen! 📱",
-        "es": "Twitch Retold Mobile: ¡Desarrollo casi terminado! 📱",
-        "pt": "Twitch Retold Mobile: Desenvolvimento quase concluído! 📱"
+        "it": "Twitch Retold Mobile 1.0.0 per Android è disponibile! 📱",
+        "en": "Twitch Retold Mobile 1.0.0 for Android is out! 📱",
+        "fr": "Twitch Retold Mobile 1.0.0 pour Android est disponible ! 📱",
+        "de": "Twitch Retold Mobile 1.0.0 für Android ist da! 📱",
+        "es": "¡Twitch Retold Mobile 1.0.0 para Android ya está disponible! 📱",
+        "pt": "Twitch Retold Mobile 1.0.0 para Android já está disponível! 📱"
       },
       "desc": {
-        "it": "L'applicazione ufficiale per dispositivi mobili (Android e iOS) ha quasi ultimato lo sviluppo! Presto potrai goderti l'esperienza Twitch senza pubblicità, con RetoldShield e audio avanzato ovunque ti trovi.",
-        "en": "The official mobile app (Android & iOS) has almost completed development! Soon you'll be able to enjoy the ad-free Twitch experience with RetoldShield and advanced audio wherever you go.",
-        "fr": "L'application mobile officielle (Android & iOS) a presque terminé son développement ! Bientôt, vous pourrez profiter de l'expérience Twitch sans publicité, avec RetoldShield et l'audio avancé où que vous soyez.",
-        "de": "Die offizielle mobile App (Android & iOS) hat die Entwicklung fast abgeschlossen! Bald können Sie das werbefreie Twitch-Erlebnis mit RetoldShield und fortschrittlichem Audio überall genießen.",
-        "es": "¡La aplicación móvil oficial (Android e iOS) está a punto de finalizar su desarrollo! Muy pronto podrás disfrutar de Twitch sin anuncios, con RetoldShield y audio avanzado dondequiera que vayas.",
-        "pt": "O aplicativo mobile oficial (Android e iOS) está quase com o desenvolvimento concluído! Em breve você poderá aproveitar a Twitch sem anúncios, com RetoldShield e áudio avançado onde quer que esteja."
+        "it": "La prima versione per Android è uscita: RetoldShield, VOD per abbonati, Picture-in-Picture e un'interfaccia pensata per il telefono. Scaricala dalla pagina delle release su GitHub (mobile-v1.0.0).",
+        "en": "The first Android release is out: RetoldShield, subscriber-only VODs, Picture-in-Picture and an interface built for your phone. Get it from the GitHub releases page (mobile-v1.0.0).",
+        "fr": "La première version Android est sortie : RetoldShield, VOD réservées aux abonnés, Picture-in-Picture et une interface pensée pour le téléphone. Téléchargez-la depuis la page des releases GitHub (mobile-v1.0.0).",
+        "de": "Die erste Android-Version ist erschienen: RetoldShield, Abonnenten-VODs, Picture-in-Picture und eine Oberfläche für dein Smartphone. Lade sie von der GitHub-Release-Seite herunter (mobile-v1.0.0).",
+        "es": "Ya salió la primera versión para Android: RetoldShield, VODs solo para suscriptores, Picture-in-Picture y una interfaz pensada para el móvil. Descárgala desde la página de releases de GitHub (mobile-v1.0.0).",
+        "pt": "A primeira versão para Android saiu: RetoldShield, VODs exclusivos para inscritos, Picture-in-Picture e uma interface feita para o celular. Baixe na página de releases do GitHub (mobile-v1.0.0)."
       }
     },
     "items": [

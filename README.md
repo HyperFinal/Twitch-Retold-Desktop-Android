@@ -1,15 +1,18 @@
 <div align="center">
 
-# 🟣 Twitch Retold
+<img src="img/TwitchRetold_Logo.png" alt="Twitch Retold Logo" width="130" style="margin-bottom: 12px;" />
+
+# Twitch Retold
 
 **The Ultimate, Ultra-Clean & Ad-Free Desktop & Mobile Experience for Twitch**
 
-[![Desktop](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=v*&color=9146FF&label=desktop&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/latest)
+[![Desktop](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=v*&color=9146FF&label=desktop&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Android](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=mobile-v*&include_prereleases&color=3DDC84&label=android&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
-[![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
-[![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/latest)
-[![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20DEB-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
+[![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20DEB-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
+[![Telegram](https://img.shields.io/badge/Telegram-Official%20Channel-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/twitch_retold)
 [![Ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-FF5E5B.svg?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/hyperfinal)
 
 ---
@@ -18,7 +21,7 @@
   <b>Twitch Retold</b> is a modern, standalone client engineered to provide the cleanest, fastest, and most immersive Twitch viewing experience on Desktop and Android — completely free and ad-free.
 </p>
 
-[📥 **Download Latest Releases (Windows / Android / macOS / Linux)**](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases) • [☕ **Support on Ko-fi**](https://ko-fi.com/hyperfinal)
+[📥 **Download Latest Releases (Windows / Android / macOS / Linux)**](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases) • [📢 **Telegram Channel**](https://t.me/twitch_retold) • [☕ **Support on Ko-fi**](https://ko-fi.com/hyperfinal)
 
 ---
 
@@ -154,7 +157,7 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 ## 🚀 Installation & Getting Started
 
 ### 🪟 Windows:
-1. Download **`Twitch Retold Setup <version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/latest).
+1. Download **`Twitch Retold Setup <version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases).
 2. Run the installer. If Windows Defender SmartScreen appears, click **"More info"** and then **"Run anyway"**.
 
 ### 📱 Android:
@@ -168,6 +171,15 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 ### 🐧 Linux:
 1. **AppImage** (Universal): Download `Twitch.Retold-<version>.AppImage`, make it executable (`chmod +x Twitch.Retold-*.AppImage`), and launch.
 2. **Debian / Ubuntu / Mint**: Download `twitch-retold_*_amd64.deb` and run `sudo dpkg -i twitch-retold_*_amd64.deb`.
+
+## 🧪 VirusTotal Scans
+
+Every installer is scanned on VirusTotal before it is announced. Twitch Retold is not code-signed, so a few engines may flag it generically: the full reports are public.
+
+| Platform | Version | File | Report |
+|---|---|---|---|
+| 🪟 Windows | v2.5.0 | `Twitch-Retold-Setup-2.5.0.exe` | _Report coming soon_ |
+| 📱 Android | v1.0.1 | `Twitch_retold_1.0.1.apk` | _Report coming soon_ |
 
 ---
 
