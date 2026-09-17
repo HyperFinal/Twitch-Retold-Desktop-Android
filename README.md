@@ -44,7 +44,7 @@ Every installer is scanned on VirusTotal before it is announced. Twitch Retold i
 
 ## 📸 App Preview & Interface
 
-> 👉 **Scroll the strips sideways** to browse every screenshot — **click any one to open it full size.**
+> 👉 **Click any screenshot to open it full size.**
 
 ### 📱 Android
 
@@ -60,9 +60,16 @@ Every installer is scanned on VirusTotal before it is announced. Twitch Retold i
 
 ### 🖥️ Desktop
 
-| Homepage | Sub-Only VOD Unlocker | Series &amp; Playlist Player | RetoldShield Control Panel | Retold Mixer DSP Suite | Last Watched Navigation |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| <a href="img/app/Homepage.png"><img src="img/app/Homepage.png" alt="Homepage" width="560" /></a> | <a href="img/app/CustomVod.jpg"><img src="img/app/CustomVod.jpg" alt="Sub-Only VOD Unlocker" width="560" /></a> | <a href="img/app/Playlist.jpg"><img src="img/app/Playlist.jpg" alt="Series &amp; Playlist Player" width="560" /></a> | <a href="img/app/RetoldMenu.png"><img src="img/app/RetoldMenu.png" alt="RetoldShield Control Panel" width="560" /></a> | <a href="img/app/RetoldMixer.png"><img src="img/app/RetoldMixer.png" alt="Retold Mixer DSP Suite" width="560" /></a> | <a href="img/app/LastWatchedMenu.png"><img src="img/app/LastWatchedMenu.png" alt="Last Watched Navigation" width="560" /></a> |
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="img/desktop/HomePage.png"><img src="img/desktop/HomePage.png" alt="Home" width="420" /></a><br /><sub><b>Home</b></sub></td>
+    <td align="center" width="50%"><a href="img/desktop/Cateogories.png"><img src="img/desktop/Cateogories.png" alt="Browse &amp; Categories" width="420" /></a><br /><sub><b>Browse &amp; Categories</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="img/desktop/LastWatched.png"><img src="img/desktop/LastWatched.png" alt="Recent: Lives &amp; VODs" width="420" /></a><br /><sub><b>Recent: Lives &amp; VODs</b></sub></td>
+    <td align="center" width="50%"><a href="img/desktop/Settings.png"><img src="img/desktop/Settings.png" alt="Settings" width="420" /></a><br /><sub><b>Settings</b></sub></td>
+  </tr>
+</table>
 
 ---
 
