@@ -63,7 +63,7 @@ Every installer is scanned on VirusTotal before it is announced. Twitch Retold i
 <table>
   <tr>
     <td align="center" width="50%"><a href="img/desktop/HomePage.png"><img src="img/desktop/HomePage.png" alt="Home" width="420" /></a><br /><sub><b>Home</b></sub></td>
-    <td align="center" width="50%"><a href="img/desktop/Cateogories.png"><img src="img/desktop/Cateogories.png" alt="Browse &amp; Categories" width="420" /></a><br /><sub><b>Browse &amp; Categories</b></sub></td>
+    <td align="center" width="50%"><a href="img/desktop/Categories.png"><img src="img/desktop/Categories.png" alt="Browse &amp; Categories" width="420" /></a><br /><sub><b>Browse &amp; Categories</b></sub></td>
   </tr>
   <tr>
     <td align="center" width="50%"><a href="img/desktop/LastWatched.png"><img src="img/desktop/LastWatched.png" alt="Recent: Lives &amp; VODs" width="420" /></a><br /><sub><b>Recent: Lives &amp; VODs</b></sub></td>
