@@ -6,7 +6,9 @@
       "source": "latest-mobile-release",
       "priority": 100,
       "level": "news",
-      "platforms": ["desktop"],
+      "platforms": [
+        "desktop"
+      ],
       "art": "phone",
       "badge": {
         "it": "Android {version}",
@@ -33,12 +35,36 @@
         "pt": "O Twitch Retold também está no celular: a mesma proteção do desktop, num app feito para Android. Escaneie o código com o celular para baixar."
       },
       "bullets": {
-        "it": ["RetoldShield e VOD per abbonati, come sul desktop", "Schermate nuove: Home, Seguiti, Ultime e Sfoglia", "Picture-in-Picture e audio dei VOD a schermo spento"],
-        "en": ["RetoldShield and subscriber-only VODs, just like on desktop", "New screens: Home, Following, Recent and Browse", "Picture-in-Picture and VOD audio with the screen off"],
-        "fr": ["RetoldShield et VOD réservées aux abonnés, comme sur ordinateur", "Nouveaux écrans : Accueil, Suivis, Récents et Parcourir", "Picture-in-Picture et audio des VOD écran éteint"],
-        "de": ["RetoldShield und Abonnenten-VODs wie am Desktop", "Neue Ansichten: Start, Gefolgt, Verlauf und Entdecken", "Picture-in-Picture und VOD-Ton bei ausgeschaltetem Bildschirm"],
-        "es": ["RetoldShield y VODs solo para suscriptores, como en el escritorio", "Pantallas nuevas: Inicio, Seguidos, Recientes y Explorar", "Picture-in-Picture y audio de los VODs con la pantalla apagada"],
-        "pt": ["RetoldShield e VODs exclusivos para inscritos, como no desktop", "Telas novas: Início, Seguindo, Recentes e Explorar", "Picture-in-Picture e áudio dos VODs com a tela desligada"]
+        "it": [
+          "RetoldShield e VOD per abbonati, come sul desktop",
+          "Schermate nuove: Home, Seguiti, Ultime e Sfoglia",
+          "Picture-in-Picture e audio dei VOD a schermo spento"
+        ],
+        "en": [
+          "RetoldShield and subscriber-only VODs, just like on desktop",
+          "New screens: Home, Following, Recent and Browse",
+          "Picture-in-Picture and VOD audio with the screen off"
+        ],
+        "fr": [
+          "RetoldShield et VOD réservées aux abonnés, comme sur ordinateur",
+          "Nouveaux écrans : Accueil, Suivis, Récents et Parcourir",
+          "Picture-in-Picture et audio des VOD écran éteint"
+        ],
+        "de": [
+          "RetoldShield und Abonnenten-VODs wie am Desktop",
+          "Neue Ansichten: Start, Gefolgt, Verlauf und Entdecken",
+          "Picture-in-Picture und VOD-Ton bei ausgeschaltetem Bildschirm"
+        ],
+        "es": [
+          "RetoldShield y VODs solo para suscriptores, como en el escritorio",
+          "Pantallas nuevas: Inicio, Seguidos, Recientes y Explorar",
+          "Picture-in-Picture y audio de los VODs con la pantalla apagada"
+        ],
+        "pt": [
+          "RetoldShield e VODs exclusivos para inscritos, como no desktop",
+          "Telas novas: Início, Seguindo, Recentes e Explorar",
+          "Picture-in-Picture e áudio dos VODs com a tela desligada"
+        ]
       },
       "cta": {
         "label": {
@@ -51,6 +77,83 @@
         }
       },
       "qr": true
+    },
+    {
+      "id": "2026-09-20-retoldshield-check",
+      "level": "important",
+      "platforms": [
+        "desktop"
+      ],
+      "from": "2026-09-20T16:00:00+02:00",
+      "until": "2026-11-30",
+      "art": "warning",
+      "badge": {
+        "it": "Da controllare",
+        "en": "Please check",
+        "fr": "À vérifier",
+        "de": "Bitte prüfen",
+        "es": "Revísalo",
+        "pt": "Confira"
+      },
+      "title": {
+        "it": "Hai sbloccato StarGate? Controlla RetoldShield",
+        "en": "Unlocked StarGate? Check RetoldShield",
+        "fr": "StarGate débloqué ? Vérifiez RetoldShield",
+        "de": "StarGate freigeschaltet? RetoldShield prüfen",
+        "es": "¿Desbloqueaste StarGate? Revisa RetoldShield",
+        "pt": "Desbloqueou o StarGate? Confira o RetoldShield"
+      },
+      "body": {
+        "it": "Dopo l'accesso con GitHub, a volte il motore resta su Legacy invece di passare a RetoldShield. Controlla una volta le impostazioni: bastano pochi secondi.",
+        "en": "After signing in with GitHub, the engine sometimes stays on Legacy instead of switching to RetoldShield. Check your settings once: it only takes a few seconds.",
+        "fr": "Après la connexion avec GitHub, le moteur reste parfois sur Legacy au lieu de passer à RetoldShield. Vérifiez une fois vos paramètres : cela ne prend que quelques secondes.",
+        "de": "Nach der Anmeldung mit GitHub bleibt die Engine manchmal auf Legacy, statt zu RetoldShield zu wechseln. Prüfe einmal deine Einstellungen: Das dauert nur ein paar Sekunden.",
+        "es": "Tras iniciar sesión con GitHub, a veces el motor se queda en Legacy en lugar de pasar a RetoldShield. Revisa tus ajustes una vez: solo lleva unos segundos.",
+        "pt": "Depois de entrar com o GitHub, às vezes o motor fica em Legacy em vez de mudar para o RetoldShield. Confira as configurações uma vez: leva só alguns segundos."
+      },
+      "bullets": {
+        "it": [
+          "Apri Impostazioni → Ad-Block",
+          "In \"Motore AdShield\" deve essere selezionato RetoldShield",
+          "Se è su Legacy, scegli RetoldShield e riavvia l'app"
+        ],
+        "en": [
+          "Open Settings → Ad-Block",
+          "\"AdShield Engine\" must be set to RetoldShield",
+          "If it says Legacy, choose RetoldShield and restart the app"
+        ],
+        "fr": [
+          "Ouvrez Paramètres → Ad-Block",
+          "Dans « Moteur AdShield », RetoldShield doit être sélectionné",
+          "S'il est sur Legacy, choisissez RetoldShield et redémarrez l'app"
+        ],
+        "de": [
+          "Öffne Einstellungen → Ad-Block",
+          "Unter „AdShield-Engine“ muss RetoldShield ausgewählt sein",
+          "Steht dort Legacy, wähle RetoldShield und starte die App neu"
+        ],
+        "es": [
+          "Abre Ajustes → Ad-Block",
+          "En «Motor AdShield» debe estar seleccionado RetoldShield",
+          "Si está en Legacy, elige RetoldShield y reinicia la app"
+        ],
+        "pt": [
+          "Abra Configurações → Ad-Block",
+          "Em \"Motor AdShield\" deve estar selecionado o RetoldShield",
+          "Se estiver em Legacy, escolha o RetoldShield e reinicie o app"
+        ]
+      },
+      "cta": {
+        "label": {
+          "it": "Apri le impostazioni",
+          "en": "Open Settings",
+          "fr": "Ouvrir les paramètres",
+          "de": "Einstellungen öffnen",
+          "es": "Abrir ajustes",
+          "pt": "Abrir configurações"
+        },
+        "action": "open-settings"
+      }
     }
   ]
 }
