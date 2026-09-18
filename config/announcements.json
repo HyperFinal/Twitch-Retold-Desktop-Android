@@ -2,145 +2,67 @@
   "schema": 1,
   "announcements": [
     {
-      "id": "mobile-release",
-      "source": "latest-mobile-release",
-      "priority": 100,
-      "level": "news",
-      "platforms": [
-        "desktop"
-      ],
-      "art": "phone",
-      "badge": {
-        "it": "Android {version}",
-        "en": "Android {version}",
-        "fr": "Android {version}",
-        "de": "Android {version}",
-        "es": "Android {version}",
-        "pt": "Android {version}"
-      },
-      "title": {
-        "it": "Twitch Retold Mobile {version} è disponibile",
-        "en": "Twitch Retold Mobile {version} is out",
-        "fr": "Twitch Retold Mobile {version} est disponible",
-        "de": "Twitch Retold Mobile {version} ist da",
-        "es": "Twitch Retold Mobile {version} ya está disponible",
-        "pt": "Twitch Retold Mobile {version} está disponível"
-      },
-      "body": {
-        "it": "Twitch Retold è anche sul telefono: le stesse protezioni del desktop, in un'app pensata per Android. Inquadra il codice con il telefono per scaricarla.",
-        "en": "Twitch Retold is on your phone too: the same protection as the desktop app, in an app built for Android. Scan the code with your phone to get it.",
-        "fr": "Twitch Retold est aussi sur téléphone : les mêmes protections que sur ordinateur, dans une app pensée pour Android. Scannez le code avec votre téléphone pour la télécharger.",
-        "de": "Twitch Retold gibt es auch fürs Smartphone: derselbe Schutz wie am Desktop, in einer App für Android. Scanne den Code mit deinem Handy, um sie zu laden.",
-        "es": "Twitch Retold también está en el móvil: la misma protección que en el escritorio, en una app pensada para Android. Escanea el código con tu móvil para descargarla.",
-        "pt": "O Twitch Retold também está no celular: a mesma proteção do desktop, num app feito para Android. Escaneie o código com o celular para baixar."
-      },
-      "bullets": {
-        "it": [
-          "RetoldShield e VOD per abbonati, come sul desktop",
-          "Schermate nuove: Home, Seguiti, Ultime e Sfoglia",
-          "Picture-in-Picture e audio dei VOD a schermo spento"
-        ],
-        "en": [
-          "RetoldShield and subscriber-only VODs, just like on desktop",
-          "New screens: Home, Following, Recent and Browse",
-          "Picture-in-Picture and VOD audio with the screen off"
-        ],
-        "fr": [
-          "RetoldShield et VOD réservées aux abonnés, comme sur ordinateur",
-          "Nouveaux écrans : Accueil, Suivis, Récents et Parcourir",
-          "Picture-in-Picture et audio des VOD écran éteint"
-        ],
-        "de": [
-          "RetoldShield und Abonnenten-VODs wie am Desktop",
-          "Neue Ansichten: Start, Gefolgt, Verlauf und Entdecken",
-          "Picture-in-Picture und VOD-Ton bei ausgeschaltetem Bildschirm"
-        ],
-        "es": [
-          "RetoldShield y VODs solo para suscriptores, como en el escritorio",
-          "Pantallas nuevas: Inicio, Seguidos, Recientes y Explorar",
-          "Picture-in-Picture y audio de los VODs con la pantalla apagada"
-        ],
-        "pt": [
-          "RetoldShield e VODs exclusivos para inscritos, como no desktop",
-          "Telas novas: Início, Seguindo, Recentes e Explorar",
-          "Picture-in-Picture e áudio dos VODs com a tela desligada"
-        ]
-      },
-      "cta": {
-        "label": {
-          "it": "Scarica per Android",
-          "en": "Get it for Android",
-          "fr": "Télécharger pour Android",
-          "de": "Für Android herunterladen",
-          "es": "Descargar para Android",
-          "pt": "Baixar para Android"
-        }
-      },
-      "qr": true
-    },
-    {
-      "id": "2026-09-20-retoldshield-check",
+      "id": "2026-09-18-retoldshield-restart",
       "level": "important",
       "platforms": [
         "desktop"
       ],
-      "from": "2026-09-20T16:00:00+02:00",
       "until": "2026-11-30",
       "art": "warning",
       "badge": {
-        "it": "Da controllare",
-        "en": "Please check",
-        "fr": "À vérifier",
-        "de": "Bitte prüfen",
-        "es": "Revísalo",
-        "pt": "Confira"
+        "it": "Da sapere",
+        "en": "Heads up",
+        "fr": "À savoir",
+        "de": "Gut zu wissen",
+        "es": "Aviso",
+        "pt": "Aviso"
       },
       "title": {
-        "it": "Hai sbloccato StarGate? Controlla RetoldShield",
-        "en": "Unlocked StarGate? Check RetoldShield",
-        "fr": "StarGate débloqué ? Vérifiez RetoldShield",
-        "de": "StarGate freigeschaltet? RetoldShield prüfen",
-        "es": "¿Desbloqueaste StarGate? Revisa RetoldShield",
-        "pt": "Desbloqueou o StarGate? Confira o RetoldShield"
+        "it": "Hai appena sbloccato StarGate? Riavvia l'app",
+        "en": "Just unlocked StarGate? Restart the app",
+        "fr": "Vous venez de débloquer StarGate ? Redémarrez l'app",
+        "de": "StarGate gerade freigeschaltet? Starte die App neu",
+        "es": "¿Acabas de desbloquear StarGate? Reinicia la app",
+        "pt": "Acabou de desbloquear o StarGate? Reinicie o app"
       },
       "body": {
-        "it": "Dopo l'accesso con GitHub, a volte il motore resta su Legacy invece di passare a RetoldShield. Controlla una volta le impostazioni: bastano pochi secondi.",
-        "en": "After signing in with GitHub, the engine sometimes stays on Legacy instead of switching to RetoldShield. Check your settings once: it only takes a few seconds.",
-        "fr": "Après la connexion avec GitHub, le moteur reste parfois sur Legacy au lieu de passer à RetoldShield. Vérifiez une fois vos paramètres : cela ne prend que quelques secondes.",
-        "de": "Nach der Anmeldung mit GitHub bleibt die Engine manchmal auf Legacy, statt zu RetoldShield zu wechseln. Prüfe einmal deine Einstellungen: Das dauert nur ein paar Sekunden.",
-        "es": "Tras iniciar sesión con GitHub, a veces el motor se queda en Legacy en lugar de pasar a RetoldShield. Revisa tus ajustes una vez: solo lleva unos segundos.",
-        "pt": "Depois de entrar com o GitHub, às vezes o motor fica em Legacy em vez de mudar para o RetoldShield. Confira as configurações uma vez: leva só alguns segundos."
+        "it": "La prima volta, dopo aver collegato GitHub, RetoldShield si attiva solo quando riavvii l'app. Fino ad allora qualche spot può passare, anche se nelle impostazioni risulta già selezionato.",
+        "en": "The first time, after you connect GitHub, RetoldShield only kicks in once you restart the app. Until then some ads can get through, even though Settings already shows it as selected.",
+        "fr": "La première fois, après avoir connecté GitHub, RetoldShield ne s'active qu'au redémarrage de l'app. D'ici là, des pubs peuvent passer, même s'il apparaît déjà sélectionné dans les paramètres.",
+        "de": "Beim ersten Mal, nachdem du GitHub verbunden hast, wird RetoldShield erst nach einem Neustart der App aktiv. Bis dahin kann Werbung durchkommen, auch wenn es in den Einstellungen schon ausgewählt ist.",
+        "es": "La primera vez, después de conectar GitHub, RetoldShield solo se activa cuando reinicias la app. Hasta entonces pueden colarse anuncios, aunque en Ajustes ya aparezca seleccionado.",
+        "pt": "Na primeira vez, depois de conectar o GitHub, o RetoldShield só entra em ação quando você reinicia o app. Até lá, alguns anúncios podem passar, mesmo que ele já apareça selecionado nas configurações."
       },
       "bullets": {
         "it": [
-          "Apri Impostazioni → Ad-Block",
-          "In \"Motore AdShield\" deve essere selezionato RetoldShield",
-          "Se è su Legacy, scegli RetoldShield e riavvia l'app"
+          "Chiudi l'app del tutto, anche dall'icona vicino all'orologio, e riaprila",
+          "Oppure: Impostazioni → Ad-Block, clicca Legacy, poi RetoldShield e Riavvia Ora",
+          "Lo sistemiamo nel prossimo aggiornamento"
         ],
         "en": [
-          "Open Settings → Ad-Block",
-          "\"AdShield Engine\" must be set to RetoldShield",
-          "If it says Legacy, choose RetoldShield and restart the app"
+          "Close the app completely (tray icon included) and open it again",
+          "Or: Settings → Ad-Block, click Legacy, then RetoldShield and Restart Now",
+          "We're fixing this in the next update"
         ],
         "fr": [
-          "Ouvrez Paramètres → Ad-Block",
-          "Dans « Moteur AdShield », RetoldShield doit être sélectionné",
-          "S'il est sur Legacy, choisissez RetoldShield et redémarrez l'app"
+          "Fermez complètement l'app (icône près de l'horloge comprise) et rouvrez-la",
+          "Ou : Paramètres → Ad-Block, cliquez sur Legacy, puis RetoldShield et Redémarrer",
+          "Nous corrigeons cela dans la prochaine mise à jour"
         ],
         "de": [
-          "Öffne Einstellungen → Ad-Block",
-          "Unter „AdShield-Engine“ muss RetoldShield ausgewählt sein",
-          "Steht dort Legacy, wähle RetoldShield und starte die App neu"
+          "Schließe die App ganz (auch über das Symbol neben der Uhr) und öffne sie wieder",
+          "Oder: Einstellungen → Ad-Block, Legacy anklicken, dann RetoldShield und „Jetzt neu starten“",
+          "Wir beheben das im nächsten Update"
         ],
         "es": [
-          "Abre Ajustes → Ad-Block",
-          "En «Motor AdShield» debe estar seleccionado RetoldShield",
-          "Si está en Legacy, elige RetoldShield y reinicia la app"
+          "Cierra la app del todo (también desde el icono junto al reloj) y vuelve a abrirla",
+          "O bien: Ajustes → Ad-Block, pulsa Legacy, luego RetoldShield y Reiniciar Ahora",
+          "Lo corregimos en la próxima actualización"
         ],
         "pt": [
-          "Abra Configurações → Ad-Block",
-          "Em \"Motor AdShield\" deve estar selecionado o RetoldShield",
-          "Se estiver em Legacy, escolha o RetoldShield e reinicie o app"
+          "Feche o app por completo (inclusive pelo ícone perto do relógio) e abra de novo",
+          "Ou: Configurações → Ad-Block, clique em Legacy, depois em RetoldShield e em Reiniciar Agora",
+          "Vamos corrigir isso na próxima atualização"
         ]
       },
       "cta": {
