@@ -1,0 +1,45 @@
+Twitch Retold — benchmark pubblicati
+Generato da tools/prepara-benchmark-pubblico.js il 2026-09-20
+Ogni riga: sha256, dimensione in byte, percorso.
+
+59f0ba1844a06535b48f4b62ba9b77c3df52d53020bf168fa32c70c34bb60372       5475  README.md
+3fce35ce9771be1b72b1d70878f0b509fa2809301304414bfa249b56f6239e3a       6136  benchmarks/summary-latest.json
+1ac8f1a3a666ed2d4a27cc3f4107e516f842d71e64749eaeb0c0bccc8a745a72    1411520  benchmarks/viewer.html
+f37a90ae15a1d791cfb92d172750de7a6e4302a7ba9d392636411bc91dd84f59       4728  benchmarks/reports/confronto-2026-09-05T07-29-12-105Z.json
+7bdc202fbb73363687f8bd8f7fd1a281e1ade8624ccfc21895be5e26c0e1c260       5309  benchmarks/reports/confronto-2026-09-05T07-30-04-954Z.json
+ce6b8fca301621e9cb5eacc15dce39e9c00834623127b276eaaead1fd9c5fdd0       5536  benchmarks/reports/confronto-2026-09-05T07-43-28-343Z.json
+4216f7295fb4fc469d43adab4516ade565fed24ab5953708424db3baca8c3504       5719  benchmarks/reports/confronto-2026-09-05T07-43-57-633Z.json
+94b1153bb3dccff459e849b92509507dd34267fc875f5e79596e065ffaea5211       5729  benchmarks/reports/confronto-2026-09-05T07-44-40-767Z.json
+47136fb836226027ce284f7f891d7c802d34f3497fc12ab7a4a69e37a0c08119       5919  benchmarks/reports/confronto-2026-09-05T08-52-00-149Z.json
+86dba8c98483ef24d723786b88b3ad7d4d5c211a79550058ec8d0ee87b83f2f0       5896  benchmarks/reports/confronto-2026-09-05T08-52-24-414Z.json
+3b995111acf237939782257de6d2eb12b8166dbf42139634021489fb6fbb5267       5754  benchmarks/reports/confronto-2026-09-05T12-04-19-683Z.json
+143b89866fbc8e9d5f57d0b5c4670024da0e4638c180f388f7bd2aaf64cf54f3       5766  benchmarks/reports/confronto-2026-09-05T12-05-02-812Z.json
+1721e305b364b3664afb4d2ff1d829198d90a0ddc6babfccdcc44d766c2466df       5765  benchmarks/reports/confronto-2026-09-05T12-05-38-408Z.json
+007558be995f8db272a79827ed715f234e1ddec624da126d60fbfc7a92292a9d       5755  benchmarks/reports/confronto-2026-09-05T12-06-23-760Z.json
+0ab1578ebbe90ac2a37f442d8a02e6ac6017f65223d6b6ac28883cd567d6b05f       5908  benchmarks/reports/confronto-2026-09-05T12-07-15-474Z.json
+ba40c48077025469ccbdc9325cdf7d7e0851045261652a604b68338d0481b6ad       5885  benchmarks/reports/confronto-2026-09-05T16-18-27-988Z.json
+8be25ee0aad84276e1f7e82bc593b6763617374af7b50f16223787e7bf79bc50       5854  benchmarks/reports/confronto-2026-09-05T16-19-14-047Z.json
+fd85ffee7c44413efd165e6eb7570a573074f9abb864a517ebd377a718232d3e       5859  benchmarks/reports/confronto-2026-09-05T16-32-48-965Z.json
+965b658be592d4021074813254759e9af067ae8cb68d38ddabe8ca38ec1f88e5       6007  benchmarks/reports/confronto-2026-09-05T16-34-05-837Z.json
+18ef44e3f0c8d76291b2069b08361f1f49ee7476442185850f686469096f04e9       6009  benchmarks/reports/confronto-2026-09-05T16-38-22-876Z.json
+f9b2e524033a6a41d664efbb9130b7d7b47645fe8dc8bf10d4bfb0cb44fd1c19       6008  benchmarks/reports/confronto-2026-09-05T16-39-17-404Z.json
+949631a9c9e499b5d61855a3bf4440822d717c23a136c11757f1d8982a943ea5       5831  benchmarks/reports/confronto-2026-09-05T16-46-50-803Z.json
+6f5bde6cb5ae4b438f2f7067ddde5e6619024688618633d6d37cd5b3bcdcbaf8       6007  benchmarks/reports/confronto-2026-09-05T16-48-23-055Z.json
+c7f697b8073d57d7eecab0f763c3d467387b97cd3aa1e0639b6c855e567cd3c7       6148  benchmarks/reports/confronto-2026-09-05T16-59-09-960Z.json
+3fce35ce9771be1b72b1d70878f0b509fa2809301304414bfa249b56f6239e3a       6136  benchmarks/reports/confronto-2026-09-05T17-02-30-495Z.json
+57ca04063e167e1307024da4a0aa038c5e8ef7b183ccebb0455b6eeaa7526335      90040  benchmarks/charts/costo-chiaro.png
+8e8048018ce92869fb7f7cfbb87383b9c9870d68b0ad2d243e047936d0c14406      85216  benchmarks/charts/costo-scuro.png
+3c7bd456b5e3ee94b463a0789a008ccef9400d4e4d9aa2ecfc2cce2cb5de6947      96668  benchmarks/charts/danni-chiaro.png
+2de309d8c09a4d96070b78fda9ff023b59448fe5a1d0994ee05fe31da188512a      91456  benchmarks/charts/danni-scuro.png
+b9562dd38934ade7b89bea45e1767bd3fda7b48109ed6d14f08e00d55fe5b3b7     123794  benchmarks/charts/disturbi-chiaro.png
+4584d553bc271ddd46eb452ac96dfb35bee40e01e4eaab3d90f168612f0cb456     117391  benchmarks/charts/disturbi-scuro.png
+5daef91522272a5c63d11a1be2abaef459e8779827d027e5b5f9c4bba54d3050      75403  benchmarks/charts/efficacia-chiaro.png
+3577acfa65624621f34cfaad6ab6ba049255ba1e2864ba5c4529e3e715430ae7      71323  benchmarks/charts/efficacia-scuro.png
+d1aa89099514cbee0110737f4a87ec670cf1744e823438ee12418e6b67c85ef1     154510  benchmarks/charts/quadrante-chiaro.png
+cd15bc9a9f213116af5379ba55ab3eca40da8034adc19e0df8f595bcd603b4de     148411  benchmarks/charts/quadrante-scuro.png
+8977ea36a62129e7349d6e1a0fc3e223c375a0b3a2711e1b2a357936b33fda20   20901354  datasets/sonda-ingressi/dataset.jsonl
+9fde0d478421bfa741161fd0b5f77c950669eff77f85cc62e10b562249e7ee01       5470  datasets/sonda-ingressi/RAPPORTO.md
+e545f959830fe63cc2fe2823cc5a3f5e628437427bb6583e5a2fd6d478b44430    1014816  datasets/sonda-lunga/dataset.jsonl
+b16affc00bc93d88939bceb1dcaa03262cb639863ddd1233adbdd97251375df1       1646  datasets/sonda-lunga/RAPPORTO-LUNGA.md
+2927e52d2b4c0aef8cb28afcced406b1cf250ec4d26955b41307cfe7548c17cd      11893  datasets/campo-telemetry/campo-2026-09-17.jsonl
+37c76239d6f475d2188d319617923365a2f3c415889520033ae4d6119cba126e       2203  datasets/campo-telemetry/RAPPORTO-CAMPO.md

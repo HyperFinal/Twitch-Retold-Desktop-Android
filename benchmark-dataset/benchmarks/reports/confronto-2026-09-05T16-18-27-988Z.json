@@ -1,0 +1,190 @@
+{
+  "generato": "2026-09-05T16:18:27.981Z",
+  "corpus": {
+    "cartella": "dataset-2026-09-05-09-46-13",
+    "playlist": 16749,
+    "conAd": 951,
+    "canali": 12,
+    "segmenti": 238531,
+    "da": "2026-09-05T09:46:19.857Z",
+    "a": "2026-09-05T14:42:09.575Z"
+  },
+  "risultati": [
+    {
+      "id": "nessuno",
+      "nome": "Nessun blocco (riferimento)",
+      "descrizione": "La playlist arriva al player come Twitch la serve. È il metro di paragone.",
+      "stateful": false,
+      "misure": {
+        "playlist": 16749,
+        "conAd": 951,
+        "risolte": 0,
+        "playlistConAdResiduo": 951,
+        "segmentiAdPassati": 5120,
+        "segmentiAdTotali": 5120,
+        "contenutoPersoUri": 0,
+        "durataContenutoIngresso": 245150.7,
+        "durataContenutoUscita": 245150.7,
+        "svuotate": 0,
+        "alterateSuPulite": 0,
+        "sequenzeIndietro": 0,
+        "sequenzeIndietroTwitch": 171,
+        "playlistNonValide": 0,
+        "playlistProblematiche": 951,
+        "prefetchPubblicitari": 336,
+        "msTotali": 2.4557000000003617,
+        "byteUscita": 264358406,
+        "copertura": 100,
+        "efficacia": 0,
+        "momentiSbagliati": 951,
+        "msPerPlaylist": 0
+      },
+      "extra": {}
+    },
+    {
+      "id": "app-attuale",
+      "nome": "Twitch Retold (motore attuale)",
+      "descrizione": "cleanHLSPlaylist letta da src/injected/twitch-adblock.js ed eseguita isolata, come nel Web Worker.",
+      "stateful": false,
+      "misure": {
+        "playlist": 16749,
+        "conAd": 951,
+        "risolte": 951,
+        "playlistConAdResiduo": 0,
+        "segmentiAdPassati": 0,
+        "segmentiAdTotali": 5120,
+        "contenutoPersoUri": 0,
+        "durataContenutoIngresso": 245150.7,
+        "durataContenutoUscita": 245150.7,
+        "svuotate": 173,
+        "alterateSuPulite": 65,
+        "sequenzeIndietro": 4,
+        "sequenzeIndietroTwitch": 171,
+        "playlistNonValide": 0,
+        "playlistProblematiche": 340,
+        "prefetchPubblicitari": 336,
+        "msTotali": 1562.5161999999987,
+        "byteUscita": 255223490,
+        "copertura": 100,
+        "efficacia": 100,
+        "momentiSbagliati": 340,
+        "msPerPlaylist": 0.093
+      },
+      "extra": {
+        "errori": 0
+      }
+    },
+    {
+      "id": "rs-solo-motore",
+      "nome": "RetoldShield — 1. solo motore",
+      "descrizione": "Parser + classificatore + trasformatore, senza sessione ombra. Mostra quanto vale il motore da solo.",
+      "stateful": false,
+      "misure": {
+        "playlist": 16749,
+        "conAd": 951,
+        "risolte": 778,
+        "playlistConAdResiduo": 173,
+        "segmentiAdPassati": 748,
+        "segmentiAdTotali": 5120,
+        "contenutoPersoUri": 0,
+        "durataContenutoIngresso": 245150.7,
+        "durataContenutoUscita": 245150.7,
+        "svuotate": 0,
+        "alterateSuPulite": 65,
+        "sequenzeIndietro": 4,
+        "sequenzeIndietroTwitch": 171,
+        "playlistNonValide": 0,
+        "playlistProblematiche": 177,
+        "prefetchPubblicitari": 0,
+        "msTotali": 1334.282099999981,
+        "byteUscita": 255431942,
+        "copertura": 100,
+        "efficacia": 81.8,
+        "momentiSbagliati": 177,
+        "msPerPlaylist": 0.08
+      },
+      "extra": {
+        "azioni": {
+          "passthrough": 15733,
+          "passthrough-guard": 173,
+          "strip": 778,
+          "sanitize": 65
+        }
+      }
+    },
+    {
+      "id": "rs-con-ombra",
+      "nome": "RetoldShield — 2. + sessione ombra",
+      "descrizione": "Aggiunge la sorgente pulita parallela, senza finestra di continuità.",
+      "stateful": false,
+      "misure": {
+        "playlist": 16749,
+        "conAd": 951,
+        "risolte": 951,
+        "playlistConAdResiduo": 0,
+        "segmentiAdPassati": 0,
+        "segmentiAdTotali": 5120,
+        "contenutoPersoUri": 0,
+        "durataContenutoIngresso": 245150.7,
+        "durataContenutoUscita": 247661.3,
+        "svuotate": 0,
+        "alterateSuPulite": 65,
+        "sequenzeIndietro": 99,
+        "sequenzeIndietroTwitch": 171,
+        "playlistNonValide": 0,
+        "playlistProblematiche": 99,
+        "prefetchPubblicitari": 0,
+        "msTotali": 1744.1874000000028,
+        "byteUscita": 257101274,
+        "copertura": 101,
+        "efficacia": 100,
+        "momentiSbagliati": 99,
+        "msPerPlaylist": 0.104
+      },
+      "extra": {
+        "azioni": {
+          "passthrough": 15733,
+          "substitute": 173,
+          "strip": 778,
+          "sanitize": 65
+        }
+      }
+    },
+    {
+      "id": "rs-completo",
+      "nome": "RetoldShield — 3. + continuità (completo)",
+      "descrizione": "Aggiunge la finestra di continuità. Non cambia quale pubblicità viene tolta: cambia se la riproduzione sopravvive.",
+      "stateful": true,
+      "misure": {
+        "playlist": 16749,
+        "conAd": 951,
+        "risolte": 951,
+        "playlistConAdResiduo": 0,
+        "segmentiAdPassati": 0,
+        "segmentiAdTotali": 5120,
+        "contenutoPersoUri": 81524,
+        "durataContenutoIngresso": 245150.7,
+        "durataContenutoUscita": 219214.7,
+        "svuotate": 0,
+        "alterateSuPulite": 12176,
+        "sequenzeIndietro": 168,
+        "sequenzeIndietroTwitch": 171,
+        "playlistNonValide": 0,
+        "playlistProblematiche": 168,
+        "prefetchPubblicitari": 0,
+        "msTotali": 2265.634100000012,
+        "byteUscita": 228827475,
+        "copertura": 89.4,
+        "efficacia": 100,
+        "momentiSbagliati": 168,
+        "msPerPlaylist": 0.135
+      },
+      "extra": {
+        "azioni": {
+          "continuity-primary": 14883,
+          "continuity-shadow": 1866
+        }
+      }
+    }
+  ]
+}
