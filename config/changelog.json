@@ -1,8 +1,155 @@
 [
   {
+    "version": "2.5.1",
+    "date": "2026-09-20",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.5.1 - Correzioni segnalate dagli utenti",
+      "en": "Twitch Retold v2.5.1 - Fixes reported by users",
+      "fr": "Twitch Retold v2.5.1 - Corrections signalées par les utilisateurs",
+      "de": "Twitch Retold v2.5.1 - Von Nutzern gemeldete Korrekturen",
+      "es": "Twitch Retold v2.5.1 - Correcciones reportadas por los usuarios",
+      "pt": "Twitch Retold v2.5.1 - Correções reportadas pelos utilizadores"
+    },
+    "items": [
+      {
+        "type": "fix",
+        "title": {
+          "it": "Canali +18: la diretta ora parte",
+          "en": "18+ channels: the stream now starts",
+          "fr": "Chaînes 18+ : le direct démarre enfin",
+          "de": "18+-Kanäle: Der Stream startet jetzt",
+          "es": "Canales +18: la transmisión ahora empieza",
+          "pt": "Canais +18: a transmissão agora começa"
+        },
+        "desc": {
+          "it": "I controlli del player non coprono più la schermata \"Inizia a guardare\" dei contenuti per adulti, né le schermate solo per abbonati e canale offline: i pulsanti di Twitch tornano cliccabili.",
+          "en": "The player controls no longer cover Twitch's \"Start Watching\" gate for mature content, nor the subscriber-only and offline screens: Twitch's buttons are clickable again.",
+          "fr": "Les contrôles du lecteur ne recouvrent plus l'écran « Commencer à regarder » des contenus pour adultes, ni les écrans réservés aux abonnés et hors ligne : les boutons de Twitch redeviennent cliquables.",
+          "de": "Die Player-Steuerung verdeckt nicht mehr den „Zuschauen“-Hinweis für nicht jugendfreie Inhalte, auch nicht die Abonnenten- und Offline-Ansichten: Twitchs Schaltflächen sind wieder anklickbar.",
+          "es": "Los controles del reproductor ya no tapan la pantalla \"Empezar a ver\" de contenido para adultos, ni las de solo suscriptores y canal sin conexión: los botones de Twitch vuelven a funcionar.",
+          "pt": "Os controlos do leitor já não cobrem o ecrã \"Começar a ver\" de conteúdo para adultos, nem os ecrãs só para subscritores e de canal offline: os botões do Twitch voltam a funcionar."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "Star Gate: RetoldShield si riattiva da solo",
+          "en": "Star Gate: RetoldShield comes back on its own",
+          "fr": "Star Gate : RetoldShield se réactive tout seul",
+          "de": "Star Gate: RetoldShield schaltet sich selbst wieder ein",
+          "es": "Star Gate: RetoldShield se reactiva solo",
+          "pt": "Star Gate: o RetoldShield reativa-se sozinho"
+        },
+        "desc": {
+          "it": "Dopo lo sblocco di Star Gate ad app aperta, il motore torna su RetoldShield e compare l'avviso \"Riavvia ora\". Nelle impostazioni una targhetta mostra quale motore sta girando davvero, non solo quello scelto.",
+          "en": "After unlocking Star Gate while the app is open, the engine switches back to RetoldShield and the \"Restart now\" notice appears. Settings now show a badge with the engine that is actually running, not just the selected one.",
+          "fr": "Après le déblocage de Star Gate avec l'application ouverte, le moteur repasse sur RetoldShield et l'avis « Redémarrer » s'affiche. Les paramètres indiquent désormais le moteur réellement en cours, pas seulement celui choisi.",
+          "de": "Nach dem Entsperren von Star Gate bei geöffneter App wechselt die Engine zurück zu RetoldShield und der Hinweis „Jetzt neu starten“ erscheint. Die Einstellungen zeigen jetzt die tatsächlich laufende Engine an, nicht nur die gewählte.",
+          "es": "Tras desbloquear Star Gate con la app abierta, el motor vuelve a RetoldShield y aparece el aviso \"Reiniciar ahora\". Los ajustes muestran una etiqueta con el motor que está funcionando de verdad, no solo el elegido.",
+          "pt": "Depois de desbloquear o Star Gate com a app aberta, o motor volta ao RetoldShield e aparece o aviso \"Reiniciar agora\". As definições mostram uma etiqueta com o motor que está mesmo a correr, não apenas o escolhido."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "7TV: accesso più affidabile",
+          "en": "7TV: more reliable sign-in",
+          "fr": "7TV : connexion plus fiable",
+          "de": "7TV: zuverlässigere Anmeldung",
+          "es": "7TV: acceso más fiable",
+          "pt": "7TV: início de sessão mais fiável"
+        },
+        "desc": {
+          "it": "Le finestre di accesso di 7TV si aprono correttamente e, se non hai ancora fatto l'accesso a Twitch, l'app ti porta prima lì: fare il contrario rompeva l'accesso.",
+          "en": "7TV sign-in windows now open properly, and if you are not signed in to Twitch yet the app takes you there first: doing it the other way round used to break the login.",
+          "fr": "Les fenêtres de connexion 7TV s'ouvrent correctement et, si vous n'êtes pas encore connecté à Twitch, l'application vous y emmène d'abord : l'ordre inverse cassait la connexion.",
+          "de": "Die 7TV-Anmeldefenster öffnen sich jetzt korrekt, und wenn du noch nicht bei Twitch angemeldet bist, führt dich die App zuerst dorthin: die umgekehrte Reihenfolge hat die Anmeldung zerstört.",
+          "es": "Las ventanas de acceso de 7TV se abren correctamente y, si aún no has entrado en Twitch, la app te lleva antes allí: hacerlo al revés rompía el acceso.",
+          "pt": "As janelas de início de sessão do 7TV abrem corretamente e, se ainda não entraste no Twitch, a app leva-te primeiro lá: fazer ao contrário quebrava o acesso."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "Via il banner Turbo sopra il video",
+          "en": "Turbo banner over the video is gone",
+          "fr": "Fini la bannière Turbo sur la vidéo",
+          "de": "Turbo-Banner über dem Video entfernt",
+          "es": "Fuera el banner de Turbo sobre el vídeo",
+          "pt": "Fora o banner Turbo sobre o vídeo"
+        },
+        "desc": {
+          "it": "Il banner \"Guarda senza inserzioni con Turbo\" che copriva la parte bassa del player viene nascosto anche nelle dirette, in tutte le lingue.",
+          "en": "The \"Ad-free viewing with Turbo\" banner that covered the bottom of the player is now hidden on live streams too, in every language.",
+          "fr": "La bannière « Regardez sans publicité avec Turbo » qui masquait le bas du lecteur est désormais cachée aussi en direct, dans toutes les langues.",
+          "de": "Das Banner „Werbefrei mit Turbo“, das den unteren Teil des Players verdeckte, wird jetzt auch bei Livestreams ausgeblendet, in allen Sprachen.",
+          "es": "El banner \"Mira sin anuncios con Turbo\" que tapaba la parte baja del reproductor ahora también se oculta en directos, en todos los idiomas.",
+          "pt": "O banner \"Vê sem anúncios com o Turbo\" que tapava a parte inferior do leitor passa a ser escondido também nas diretas, em todos os idiomas."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Segnalazioni di bug più utili",
+          "en": "More useful bug reports",
+          "fr": "Rapports de bug plus utiles",
+          "de": "Nützlichere Fehlerberichte",
+          "es": "Informes de error más útiles",
+          "pt": "Relatórios de erro mais úteis"
+        },
+        "desc": {
+          "it": "Il rapporto include il motore in esecuzione, lo stato di Star Gate e gli annunci bloccati nella sessione, così una segnalazione basta a capire cosa è successo.",
+          "en": "The report now includes the running engine, the Star Gate state and the ads blocked during the session, so one report is enough to understand what happened.",
+          "fr": "Le rapport inclut le moteur en cours, l'état de Star Gate et les publicités bloquées pendant la session : un seul rapport suffit pour comprendre.",
+          "de": "Der Bericht enthält jetzt die laufende Engine, den Star-Gate-Status und die in der Sitzung blockierte Werbung, sodass ein Bericht zum Verständnis reicht.",
+          "es": "El informe incluye el motor en ejecución, el estado de Star Gate y los anuncios bloqueados en la sesión, así un solo informe basta para entender qué pasó.",
+          "pt": "O relatório inclui o motor em execução, o estado do Star Gate e os anúncios bloqueados na sessão, por isso um relatório chega para perceber o que aconteceu."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Meno lavoro per il computer",
+          "en": "Lighter on your computer",
+          "fr": "Moins de charge pour l'ordinateur",
+          "de": "Weniger Last für den Rechner",
+          "es": "Menos carga para el ordenador",
+          "pt": "Menos carga para o computador"
+        },
+        "desc": {
+          "it": "La pulizia della pagina non riesamina più migliaia di elementi dieci volte al secondo: meno CPU usata mentre guardi, soprattutto con la chat aperta.",
+          "en": "Page cleanup no longer scans thousands of elements ten times per second: less CPU while you watch, especially with chat open.",
+          "fr": "Le nettoyage de la page n'analyse plus des milliers d'éléments dix fois par seconde : moins de CPU pendant le visionnage, surtout avec le chat ouvert.",
+          "de": "Die Seitenbereinigung durchsucht nicht mehr Tausende Elemente zehnmal pro Sekunde: weniger CPU beim Zuschauen, besonders mit offenem Chat.",
+          "es": "La limpieza de la página ya no revisa miles de elementos diez veces por segundo: menos CPU mientras ves, sobre todo con el chat abierto.",
+          "pt": "A limpeza da página deixa de analisar milhares de elementos dez vezes por segundo: menos CPU enquanto vês, sobretudo com o chat aberto."
+        }
+      },
+      {
+        "type": "new",
+        "title": {
+          "it": "RetoldShield: aggiornamento in arrivo",
+          "en": "RetoldShield: an update is on the way",
+          "fr": "RetoldShield : une mise à jour arrive",
+          "de": "RetoldShield: Update in Arbeit",
+          "es": "RetoldShield: actualización en camino",
+          "pt": "RetoldShield: atualização a caminho"
+        },
+        "desc": {
+          "it": "Stiamo studiando un aggiornamento del motore, partendo da una raccolta dati di oltre 24 ore su centinaia di canali: nel mirino ci sono gli annunci che Twitch consegna fuori dal video e i rari spot che sfuggono all'ingresso in un canale. Arriva a breve.",
+          "en": "We are working on an engine update, based on more than 24 hours of data collected across hundreds of channels: the targets are the ads Twitch delivers outside the video stream and the rare ones that slip through when you enter a channel. Coming soon.",
+          "fr": "Nous préparons une mise à jour du moteur, à partir de plus de 24 heures de données collectées sur des centaines de chaînes : dans le viseur, les publicités diffusées en dehors de la vidéo et les rares qui passent à l'entrée d'une chaîne. Bientôt disponible.",
+          "de": "Wir arbeiten an einem Engine-Update auf Basis von über 24 Stunden Messdaten aus Hunderten Kanälen: Im Visier sind Werbung, die Twitch außerhalb des Videos ausliefert, und die seltenen Spots, die beim Betreten eines Kanals durchrutschen. Kommt in Kürze.",
+          "es": "Estamos preparando una actualización del motor, a partir de más de 24 horas de datos recogidos en cientos de canales: el objetivo son los anuncios que Twitch entrega fuera del vídeo y los pocos que se cuelan al entrar en un canal. Llega pronto.",
+          "pt": "Estamos a preparar uma atualização do motor, a partir de mais de 24 horas de dados recolhidos em centenas de canais: o alvo são os anúncios que o Twitch entrega fora do vídeo e os raros que escapam ao entrar num canal. Chega em breve."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.5.0",
     "date": "2026-09-17",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.5.0 - Nuovo design, Player V2 e avvisi",
       "en": "Twitch Retold v2.5.0 - New design, Player V2 and announcements",
