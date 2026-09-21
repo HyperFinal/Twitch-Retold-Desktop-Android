@@ -1,8 +1,60 @@
 [
   {
+    "version": "2.5.2",
+    "date": "2026-09-21",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.5.2 - Risoluzione login su macOS e accesso con auth-token",
+      "en": "Twitch Retold v2.5.2 - macOS login fix & auth-token sign-in",
+      "fr": "Twitch Retold v2.5.2 - Correction de connexion sur macOS et accès par auth-token",
+      "de": "Twitch Retold v2.5.2 - macOS Login-Korrektur & Anmeldung per auth-token",
+      "es": "Twitch Retold v2.5.2 - Corrección de inicio de sesión en macOS y acceso con auth-token",
+      "pt": "Twitch Retold v2.5.2 - Correção de início de sessão no macOS e acesso com auth-token"
+    },
+    "items": [
+      {
+        "type": "fix",
+        "title": {
+          "it": "Accesso a Twitch su macOS e Linux",
+          "en": "Twitch login on macOS and Linux",
+          "fr": "Connexion à Twitch sur macOS et Linux",
+          "de": "Twitch-Anmeldung auf macOS und Linux",
+          "es": "Inicio de sesión de Twitch en macOS y Linux",
+          "pt": "Início de sessão da Twitch no macOS e Linux"
+        },
+        "desc": {
+          "it": "Risolto l'errore 'Browser non supportato' durante l'accesso su macOS (inclusi Mac Apple Silicon M1/M2/M3/M4) e Linux: User-Agent e Client Hints ora si allineano dinamicamente al sistema operativo, superando i controlli di integrità di Twitch e Arkose Labs.",
+          "en": "Fixed the 'Browser not supported' error during login on macOS (including Apple Silicon M1/M2/M3/M4 Macs) and Linux: User-Agent and Client Hints now align dynamically with the operating system, passing Twitch and Arkose Labs integrity checks.",
+          "fr": "Résolution de l'erreur « Navigateur non pris en charge » lors de la connexion sur macOS (y compris Apple Silicon M1/M2/M3/M4) et Linux : le User-Agent et les Client Hints s'alignent dynamiquement avec le système d'exploitation.",
+          "de": "Der Fehler „Browser nicht unterstützt“ bei der Anmeldung unter macOS (inklusive Apple Silicon M1/M2/M3/M4) und Linux wurde behoben: User-Agent und Client Hints passen sich nun dynamisch an das Betriebssystem an.",
+          "es": "Se solucionó el error 'Navegador no compatible' al iniciar sesión en macOS (incluidos Mac con Apple Silicon M1/M2/M3/M4) y Linux: User-Agent y Client Hints ahora se ajustan dinámicamente al sistema operativo.",
+          "pt": "Corrigido o erro 'Navegador não suportado' ao entrar no macOS (incluindo Mac com Apple Silicon M1/M2/M3/M4) e Linux: o User-Agent e os Client Hints alinham-se agora dinamicamente com o sistema operativo."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Accesso alternativo tramite Token / Cookie",
+          "en": "Alternative login via Token / Cookie",
+          "fr": "Connexion alternative par Token / Cookie",
+          "de": "Alternative Anmeldung über Token / Cookie",
+          "es": "Inicio de sesión alternativo mediante Token / Cookie",
+          "pt": "Início de sessão alternativo através de Token / Cookie"
+        },
+        "desc": {
+          "it": "Aggiunta la possibilità di accedere inserendo l'auth-token del proprio account da Safari o Chrome: ideale per chi usa account collegati a Google OAuth o chi incontra captcha ostativi.",
+          "en": "Added the ability to log in by pasting the account's auth-token from Safari or Chrome: ideal for users signing in with Google OAuth or encountering stubborn captchas.",
+          "fr": "Ajout de la possibilité de se connecter en collant l'auth-token de son compte depuis Safari ou Chrome : idéal pour les comptes Google OAuth ou les captchas récalcitrants.",
+          "de": "Möglichkeit hinzugefügt, sich durch Einfügen des auth-token aus Safari oder Chrome anzumelden: ideal bei Google OAuth oder hartnäckigen Captchas.",
+          "es": "Se añadió la opción de iniciar sesión pegando el auth-token de la cuenta desde Safari o Chrome: ideal para usuarios con Google OAuth o captchas bloqueados.",
+          "pt": "Adicionada a opção de entrar colando o auth-token da conta a partir do Safari ou Chrome: ideal para quem usa Google OAuth ou enfrenta captchas insistentes."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.5.1",
     "date": "2026-09-20",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.5.1 - Correzioni segnalate dagli utenti",
       "en": "Twitch Retold v2.5.1 - Fixes reported by users",
