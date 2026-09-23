@@ -1,8 +1,174 @@
 [
   {
+    "version": "2.6.0",
+    "date": "2026-09-23",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.6.0 - Multistream, pagine canale e RetoldShield più forte",
+      "en": "Twitch Retold v2.6.0 - Multistream, channel pages and a stronger RetoldShield",
+      "fr": "Twitch Retold v2.6.0 - Multistream, pages de chaîne et RetoldShield renforcé",
+      "de": "Twitch Retold v2.6.0 - Multistream, Kanalseiten und ein stärkeres RetoldShield",
+      "es": "Twitch Retold v2.6.0 - Multistream, páginas de canal y un RetoldShield más fuerte",
+      "pt": "Twitch Retold v2.6.0 - Multistream, páginas de canal e um RetoldShield mais forte"
+    },
+    "items": [
+      {
+        "type": "new",
+        "title": {
+          "it": "Multistream",
+          "en": "Multistream",
+          "fr": "Multistream",
+          "de": "Multistream",
+          "es": "Multistream",
+          "pt": "Multistream"
+        },
+        "desc": {
+          "it": "Fino a tre live insieme, una in primo piano con i controlli del player e le altre di lato, con una chat unica per tutti i canali. Si avvia dalla colonna a sinistra o dal pulsante Multistream sopra il player; lo scambio tra le live è istantaneo.",
+          "en": "Up to three lives at once, one in focus with the full player controls and the others alongside, with one chat for every channel. Start it from the left rail or the Multistream button above the player; swapping lives is instant.",
+          "fr": "Jusqu'à trois lives en même temps, un au premier plan avec les commandes du lecteur et les autres à côté, avec un seul chat pour toutes les chaînes. Lancement depuis la colonne de gauche ou le bouton Multistream au-dessus du lecteur ; l'échange est instantané.",
+          "de": "Bis zu drei Livestreams gleichzeitig, einer im Fokus mit allen Player-Steuerungen und die anderen daneben, mit einem gemeinsamen Chat für alle Kanäle. Start über die linke Leiste oder die Multistream-Taste über dem Player; der Wechsel ist sofort.",
+          "es": "Hasta tres directos a la vez, uno en primer plano con los controles del reproductor y los demás al lado, con un único chat para todos los canales. Se inicia desde la columna izquierda o el botón Multistream sobre el reproductor; el cambio es instantáneo.",
+          "pt": "Até três lives ao mesmo tempo, uma em destaque com os controles do player e as outras ao lado, com um único chat para todos os canais. Comece pela coluna à esquerda ou pelo botão Multistream acima do player; a troca é instantânea."
+        }
+      },
+      {
+        "type": "new",
+        "title": {
+          "it": "Pagine canale di Twitch Retold",
+          "en": "Twitch Retold channel pages",
+          "fr": "Pages de chaîne Twitch Retold",
+          "de": "Twitch-Retold-Kanalseiten",
+          "es": "Páginas de canal de Twitch Retold",
+          "pt": "Páginas de canal do Twitch Retold"
+        },
+        "desc": {
+          "it": "Le pagine dei canali sono ora nostre, come nell'app Android: Base, Video, Clip, Serie, Programma e Info, con segui, abbonati e promemoria per le prossime live (notifica quando iniziano).",
+          "en": "Channel pages are now ours, as in the Android app: Home, Videos, Clips, Series, Schedule and About, with follow, subscribe and reminders for upcoming lives (a notification when they start).",
+          "fr": "Les pages de chaîne sont désormais les nôtres, comme dans l'app Android : Accueil, Vidéos, Clips, Séries, Planning et Infos, avec suivre, s'abonner et rappels des prochains lives.",
+          "de": "Kanalseiten sind jetzt unsere eigenen, wie in der Android-App: Start, Videos, Clips, Serien, Zeitplan und Info, mit Folgen, Abonnieren und Erinnerungen an kommende Streams.",
+          "es": "Las páginas de canal ahora son nuestras, como en la app de Android: Inicio, Vídeos, Clips, Series, Horario e Info, con seguir, suscribirse y recordatorios de los próximos directos.",
+          "pt": "As páginas de canal agora são nossas, como no app Android: Início, Vídeos, Clipes, Séries, Programação e Info, com seguir, inscrever-se e lembretes das próximas lives."
+        }
+      },
+      {
+        "type": "new",
+        "title": {
+          "it": "Abbonamenti, regali e conferme nei pannelli dell'app",
+          "en": "Subscribe, gifts and confirmations in the app's own panels",
+          "fr": "Abonnements, cadeaux et confirmations dans les panneaux de l'app",
+          "de": "Abos, Geschenke und Bestätigungen in den App-eigenen Panels",
+          "es": "Suscripciones, regalos y confirmaciones en los paneles de la app",
+          "pt": "Inscrições, presentes e confirmações nos painéis do app"
+        },
+        "desc": {
+          "it": "Abbonati, Regala una sub, punti canale e segnalazioni si aprono in un pannello laterale con la live ancora visibile; le conferme come Smetti di seguire diventano una finestra al centro. I pagamenti e la sicurezza dell'account continuano sul sito di Twitch nel browser; gli accessi a 7TV, BetterTTV e FrankerFaceZ chiedono prima Twitch, così il doppio accesso non fallisce più.",
+          "en": "Subscribe, Gift a sub, channel points and reports open in a side panel with the live still visible; confirmations such as Unfollow become a centred dialog. Payments and account security continue on Twitch's own site in your browser; 7TV, BetterTTV and FrankerFaceZ sign-ins ask for Twitch first, so the double sign-in no longer fails.",
+          "fr": "S'abonner, Offrir un abonnement, points de chaîne et signalements s'ouvrent dans un panneau latéral, le live restant visible ; les confirmations comme Ne plus suivre deviennent une fenêtre centrée. Paiements et sécurité du compte se font sur le site de Twitch dans le navigateur ; la connexion à 7TV, BetterTTV et FrankerFaceZ demande d'abord Twitch.",
+          "de": "Abonnieren, Abo verschenken, Kanalpunkte und Meldungen öffnen sich in einem Seitenpanel, der Stream bleibt sichtbar; Bestätigungen wie Entfolgen werden zu einem zentrierten Dialog. Zahlungen und Kontosicherheit laufen auf der Twitch-Website im Browser; Anmeldungen bei 7TV, BetterTTV und FrankerFaceZ fragen zuerst nach Twitch.",
+          "es": "Suscribirse, Regalar una sub, puntos del canal y denuncias se abren en un panel lateral con el directo aún visible; las confirmaciones como Dejar de seguir pasan a una ventana centrada. Pagos y seguridad de la cuenta siguen en el sitio de Twitch en el navegador; el acceso a 7TV, BetterTTV y FrankerFaceZ pide primero Twitch.",
+          "pt": "Inscrever-se, Presentear uma inscrição, pontos do canal e denúncias abrem em um painel lateral com a live ainda visível; confirmações como Deixar de seguir viram uma janela centralizada. Pagamentos e segurança da conta continuam no site da Twitch no navegador; o login em 7TV, BetterTTV e FrankerFaceZ pede a Twitch primeiro."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "RetoldShield più forte",
+          "en": "A stronger RetoldShield",
+          "fr": "Un RetoldShield plus fort",
+          "de": "Ein stärkeres RetoldShield",
+          "es": "Un RetoldShield más fuerte",
+          "pt": "Um RetoldShield mais forte"
+        },
+        "desc": {
+          "it": "Dopo una campagna di prova di 27 ore: bloccati per tutti gli spot che Twitch carica direttamente nel player (la finestra che li bloccava non ha mai mostrato pubblicità), sessioni di ricambio più pulite e riconoscimento di nuovi formati di pubblicità.",
+          "en": "After a 27-hour test campaign: ads that Twitch loads straight into the player are now blocked for everyone (the window that blocked them never showed an ad), cleaner backup sessions, and new ad formats recognised.",
+          "fr": "Après une campagne de test de 27 heures : les pubs que Twitch charge directement dans le lecteur sont bloquées pour tous, sessions de secours plus propres et nouveaux formats publicitaires reconnus.",
+          "de": "Nach einer 27-stündigen Testkampagne: Werbung, die Twitch direkt in den Player lädt, wird jetzt für alle blockiert, sauberere Ersatzsitzungen und neue Werbeformate werden erkannt.",
+          "es": "Tras una campaña de prueba de 27 horas: los anuncios que Twitch carga directamente en el reproductor se bloquean para todos, sesiones de respaldo más limpias y reconocimiento de nuevos formatos publicitarios.",
+          "pt": "Após uma campanha de teste de 27 horas: os anúncios que a Twitch carrega direto no player são bloqueados para todos, sessões reserva mais limpas e novos formatos de anúncio reconhecidos."
+        }
+      },
+      {
+        "type": "feature",
+        "title": {
+          "it": "Segnala i nuovi formati pubblicitari",
+          "en": "Report new ad formats",
+          "fr": "Signaler les nouveaux formats publicitaires",
+          "de": "Neue Werbeformate melden",
+          "es": "Informar de nuevos formatos de anuncios",
+          "pt": "Relatar novos formatos de anúncio"
+        },
+        "desc": {
+          "it": "Quando RetoldShield incontra un formato di pubblicità che non conosce, ne invia in forma anonima solo la firma (niente canali, niente URL, nessun account), al massimo due volte al giorno, così il motore si aggiorna più in fretta. Fuori dall’Unione Europea Twitch mostra pubblicità diverse da quelle che vediamo noi, e lì RetoldShield potrebbe non bloccarle tutte: queste segnalazioni servono proprio a scoprirle e ad aggiungerle al motore. Si spegne in Impostazioni › Ad-Block.",
+          "en": "When RetoldShield meets an ad format it does not know, it anonymously sends only its signature (no channels, no URLs, no account), at most twice a day, so the engine gets updated faster. Outside the European Union Twitch serves different ads from the ones we see, and there RetoldShield may not block them all: these reports are exactly how we find them and teach them to the engine. Turn it off in Settings › Ad-Block.",
+          "fr": "Quand RetoldShield rencontre un format publicitaire inconnu, il n'envoie anonymement que sa signature (aucune chaîne, aucune URL, aucun compte), deux fois par jour au maximum. Hors de l’Union européenne, Twitch diffuse des publicités différentes de celles que nous voyons, et RetoldShield peut ne pas toutes les bloquer : ces signalements servent justement à les découvrir et à les ajouter au moteur. Désactivable dans Paramètres › Ad-Block.",
+          "de": "Trifft RetoldShield auf ein unbekanntes Werbeformat, sendet es anonym nur dessen Signatur (keine Kanäle, keine URLs, kein Konto), höchstens zweimal am Tag. Außerhalb der Europäischen Union zeigt Twitch andere Werbung als die, die wir sehen, und dort blockiert RetoldShield sie womöglich nicht alle: Genau dafür sind diese Meldungen da, damit wir sie finden und der Engine beibringen. Abschaltbar unter Einstellungen › Ad-Block.",
+          "es": "Cuando RetoldShield encuentra un formato de anuncio que no conoce, envía de forma anónima solo su firma (sin canales, sin URL, sin cuenta), como máximo dos veces al día. Fuera de la Unión Europea Twitch muestra anuncios distintos de los que vemos nosotros, y allí RetoldShield podría no bloquearlos todos: estos informes sirven precisamente para descubrirlos y añadirlos al motor. Se desactiva en Ajustes › Ad-Block.",
+          "pt": "Quando o RetoldShield encontra um formato de anúncio que não conhece, envia de forma anônima apenas a assinatura (sem canais, sem URLs, sem conta), no máximo duas vezes por dia. Fora da União Europeia a Twitch exibe anúncios diferentes dos que vemos, e lá o RetoldShield pode não bloquear todos: estes relatos servem justamente para descobri-los e ensiná-los ao motor. Desative em Configurações › Ad-Block."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Adatta allo schermo",
+          "en": "Fits any screen",
+          "fr": "S'adapte à l'écran",
+          "de": "Passt sich dem Bildschirm an",
+          "es": "Se adapta a la pantalla",
+          "pt": "Adapta-se à tela"
+        },
+        "desc": {
+          "it": "A schermo intero le pagine occupano tutta la larghezza e su monitor grandi si ingrandiscono; la Home mostra quattro righe piene. Nelle finestre strette la colonna a sinistra passa da sola alle sole icone.",
+          "en": "In full screen, pages use the whole width and scale up on large monitors; Home shows four full rows. In narrow windows the left rail switches to icons by itself.",
+          "fr": "En plein écran, les pages occupent toute la largeur et s'agrandissent sur les grands moniteurs ; l'Accueil affiche quatre rangées complètes. Dans les fenêtres étroites, la colonne de gauche passe aux icônes.",
+          "de": "Im Vollbild nutzen die Seiten die ganze Breite und werden auf großen Monitoren vergrößert; die Startseite zeigt vier volle Reihen. In schmalen Fenstern wechselt die linke Leiste automatisch zu Symbolen.",
+          "es": "En pantalla completa, las páginas usan todo el ancho y se amplían en monitores grandes; Inicio muestra cuatro filas completas. En ventanas estrechas la columna izquierda pasa sola a solo iconos.",
+          "pt": "Em tela cheia, as páginas usam toda a largura e aumentam em monitores grandes; o Início mostra quatro fileiras completas. Em janelas estreitas a coluna à esquerda passa sozinha para só ícones."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "macOS",
+          "en": "macOS",
+          "fr": "macOS",
+          "de": "macOS",
+          "es": "macOS",
+          "pt": "macOS"
+        },
+        "desc": {
+          "it": "Il DMG per Mac Intel non si apriva (\"cachedDataRejected\"): ora c'è un pacchetto per processore, provato prima di pubblicarlo; scarica il -arm64.dmg per Apple Silicon (M1-M4). I semafori della finestra sono quelli nativi, la finestra si ricorda posizione e misura, e chiuderla non lascia più l'audio in sottofondo.",
+          "en": "The DMG for Intel Macs would not open (\"cachedDataRejected\"): there is now one package per processor, tested before release; download the -arm64.dmg for Apple Silicon (M1-M4). The window uses the native traffic lights, remembers its position and size, and closing it no longer leaves the sound playing.",
+          "fr": "Le DMG pour Mac Intel ne s'ouvrait pas (« cachedDataRejected ») : il y a désormais un paquet par processeur, testé avant publication ; téléchargez le -arm64.dmg pour Apple Silicon (M1-M4). Feux natifs, position et taille mémorisées, plus de son après fermeture.",
+          "de": "Die DMG für Intel-Macs ließ sich nicht öffnen („cachedDataRejected“): Jetzt gibt es ein Paket pro Prozessor, vor der Veröffentlichung getestet; für Apple Silicon (M1-M4) die -arm64.dmg laden. Native Ampeln, Position und Größe werden gemerkt, nach dem Schließen läuft kein Ton mehr.",
+          "es": "El DMG para Mac Intel no se abría (\"cachedDataRejected\"): ahora hay un paquete por procesador, probado antes de publicarlo; descarga el -arm64.dmg para Apple Silicon (M1-M4). Semáforos nativos, la ventana recuerda posición y tamaño, y al cerrarla ya no sigue el sonido.",
+          "pt": "O DMG para Mac Intel não abria (\"cachedDataRejected\"): agora há um pacote por processador, testado antes de publicar; baixe o -arm64.dmg para Apple Silicon (M1-M4). Semáforos nativos, a janela lembra posição e tamanho, e fechá-la não deixa mais o som tocando."
+        }
+      },
+      {
+        "type": "fix",
+        "title": {
+          "it": "Correzioni",
+          "en": "Fixes",
+          "fr": "Corrections",
+          "de": "Korrekturen",
+          "es": "Correcciones",
+          "pt": "Correções"
+        },
+        "desc": {
+          "it": "La campanella delle notifiche del canale torna a funzionare; sparito il pallino rosa accanto a Regala una sub; aprendo una live non compare più per un attimo la schermata \"contenuto non disponibile\"; i tooltip della chat non si aprono e chiudono più all'infinito.",
+          "en": "The channel notification bell works again; the pink dot next to Gift a sub is gone; opening a live no longer flashes the \"content not available\" screen; chat tooltips no longer open and close in a loop.",
+          "fr": "La cloche des notifications de la chaîne fonctionne à nouveau ; le point rose à côté d'Offrir un abonnement a disparu ; ouvrir un live n'affiche plus brièvement « contenu indisponible » ; les infobulles du chat ne clignotent plus.",
+          "de": "Die Kanal-Benachrichtigungsglocke funktioniert wieder; der rosa Punkt neben Abo verschenken ist weg; beim Öffnen eines Streams blitzt „Inhalt nicht verfügbar“ nicht mehr auf; Chat-Tooltips flackern nicht mehr.",
+          "es": "La campana de notificaciones del canal vuelve a funcionar; desapareció el punto rosa junto a Regalar una sub; al abrir un directo ya no aparece un instante \"contenido no disponible\"; los tooltips del chat ya no parpadean.",
+          "pt": "O sino de notificações do canal voltou a funcionar; sumiu o ponto rosa ao lado de Presentear uma inscrição; ao abrir uma live não aparece mais por um instante \"conteúdo indisponível\"; as dicas do chat não piscam mais."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.5.2",
     "date": "2026-09-21",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.5.2 - Risoluzione login su macOS e accesso con auth-token",
       "en": "Twitch Retold v2.5.2 - macOS login fix & auth-token sign-in",

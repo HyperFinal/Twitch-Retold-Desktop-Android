@@ -11,7 +11,7 @@
 [![Android](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=mobile-v*&color=3DDC84&label=android&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/tag/mobile-v1.0.1)
 [![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/download/mobile-v1.0.1/Twitch_retold_1.0.1.apk)
-[![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
+[![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon%20%7C%20Intel-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20DEB-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Official%20Channel-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/twitch_retold)
 [![Ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-FF5E5B.svg?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/hyperfinal)
@@ -59,6 +59,8 @@
     - [6. Watch History & Smart Timestamp Resume](#feature-history)
     - [7. Full Localization & Customization](#feature-settings)
     - [8. Native Auto-Updater](#feature-updater)
+    - [9. Multistream](#feature-multistream)
+    - [10. Channel Pages](#feature-channel)
   - [🚀 Installation & Getting Started](#installation)
     - [Windows](#install-windows)
     - [Android](#install-android)
@@ -253,12 +255,22 @@ All benchmarks shown above are measured on live production Twitch streams—not 
 * Periodic background checking with alert toasts when new releases drop.
 * Automatic in-app download and installation on both Desktop and Android.
 
+<a id="feature-multistream"></a>
+### 🖥️ 9. Multistream (Desktop)
+* Up to three lives at once: one in focus with the full player controls, the others alongside, swapped instantly.
+* One unified chat for every channel, with per-channel sending.
+
+<a id="feature-channel"></a>
+### 📺 10. Channel Pages
+* Our own channel pages, on Android and Desktop: Home, Videos, Clips, Series, Schedule and About.
+* Follow, subscribe and reminders for upcoming lives; Twitch screens such as Subscribe or Gift a sub open in the app's side panel, payments in your browser.
+
 <a id="installation"></a>
 ## 🚀 Installation & Getting Started
 
 <a id="install-windows"></a>
 ### 🪟 Windows:
-1. Download **`Twitch Retold Setup <version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases).
+1. Download **`Twitch-Retold-Setup-<version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases).
 2. Run the installer. If Windows Defender SmartScreen appears, click **"More info"** and then **"Run anyway"**.
 
 <a id="install-android"></a>
@@ -268,12 +280,17 @@ All benchmarks shown above are measured on live production Twitch streams—not 
 
 <a id="install-macos"></a>
 ### 🍎 macOS:
-1. Download **`Twitch.Retold-<version>.dmg`** (Universal: Apple Silicon M1/M2/M3/M4 & Intel).
+1. Download the DMG for your Mac's processor (Apple menu → **About This Mac** shows *Chip* or *Processor*):
+   - Apple Silicon (M1 / M2 / M3 / M4): **`Twitch-Retold-<version>-arm64.dmg`**
+   - Intel: **`Twitch-Retold-<version>.dmg`**
 2. Open the DMG and drag **Twitch Retold** into your **Applications** folder.
+
+> [!NOTE]
+> Each DMG only runs on its own processor. If the app shows *"Invalid or incompatible cached data (cachedDataRejected)"*, check that the DMG matches your processor: on Apple Silicon, always use the `-arm64.dmg`.
 
 <a id="install-linux"></a>
 ### 🐧 Linux:
-1. **AppImage** (Universal): Download `Twitch.Retold-<version>.AppImage`, make it executable (`chmod +x Twitch.Retold-*.AppImage`), and launch.
+1. **AppImage** (Universal): Download `Twitch-Retold-<version>.AppImage`, make it executable (`chmod +x Twitch-Retold-*.AppImage`), and launch.
 2. **Debian / Ubuntu / Mint**: Download `twitch-retold_*_amd64.deb` and run `sudo dpkg -i twitch-retold_*_amd64.deb`.
 
 <a id="shortcuts"></a>
