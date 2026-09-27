@@ -8,9 +8,9 @@
 **The Ultimate, Ultra-Clean & Ad-Free Desktop & Mobile Experience for Twitch**
 
 [![Desktop](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=v*&color=9146FF&label=desktop&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
-[![Android](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=mobile-v*&color=3DDC84&label=android&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/tag/mobile-v1.0.1)
+[![Android](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=mobile-v*&color=3DDC84&label=android&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/tag/mobile-v2.0.0)
 [![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
-[![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/download/mobile-v1.0.1/Twitch_retold_1.0.1.apk)
+[![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/download/mobile-v2.0.0/Twitch_retold_2.0.0.apk)
 [![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20DEB-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Official%20Channel-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/twitch_retold)
@@ -128,7 +128,7 @@ Every installer is scanned on VirusTotal before it is announced. Twitch Retold i
 
 <div align="center">
 
-[![Android](https://img.shields.io/badge/Android-APK%20Direct%20Download-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/download/mobile-v1.0.1/Twitch_retold_1.0.1.apk)
+[![Android](https://img.shields.io/badge/Android-APK%20Direct%20Download-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/download/mobile-v2.0.0/Twitch_retold_2.0.0.apk)
 
 </div>
 
@@ -259,7 +259,7 @@ All benchmarks shown above are measured on live production Twitch streams—not 
 
 <a id="install-android"></a>
 ### 📱 Android:
-1. Download **`Twitch_retold_<version>.apk`** from the [latest Android release](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/tag/mobile-v1.0.1).
+1. Download **`Twitch_retold_<version>.apk`** from the [latest Android release](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/tag/mobile-v2.0.0).
 2. Open the downloaded APK on your Android device and confirm installation. (If prompted, enable *"Install unknown apps"* for your browser or file manager).
 
 <a id="install-macos"></a>
