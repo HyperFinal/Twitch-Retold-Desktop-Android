@@ -1,8 +1,136 @@
 [
   {
+    "version": "2.7.0",
+    "date": "2026-09-25",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.7.0 - Il nuovo Retold Mixer",
+      "en": "Twitch Retold v2.7.0 - The new Retold Mixer",
+      "fr": "Twitch Retold v2.7.0 - Le nouveau Retold Mixer",
+      "de": "Twitch Retold v2.7.0 - Der neue Retold Mixer",
+      "es": "Twitch Retold v2.7.0 - El nuevo Retold Mixer",
+      "pt": "Twitch Retold v2.7.0 - O novo Retold Mixer"
+    },
+    "items": [
+      {
+        "type": "new",
+        "title": {
+          "it": "Il nuovo Retold Mixer",
+          "en": "The new Retold Mixer",
+          "fr": "Le nouveau Retold Mixer",
+          "de": "Der neue Retold Mixer",
+          "es": "El nuevo Retold Mixer",
+          "pt": "O novo Retold Mixer"
+        },
+        "desc": {
+          "it": "Il mixer ora separa la voce dello streamer dal gioco e dalla musica con un piccolo modello neurale che gira sul PC, invece di alzare bande di frequenza che la voce condivide con il gioco. Alzare la voce non alza più anche le esplosioni. Il modello è addestrato su mix sintetici e su centinaia di live vere.",
+          "en": "The mixer now separates the streamer's voice from the game and the music with a small neural model that runs on your PC, instead of boosting frequency bands the voice shares with the game. Raising the voice no longer raises the explosions too. The model was trained on synthetic mixes and on hundreds of real lives.",
+          "fr": "Le mixer sépare maintenant la voix du streamer du jeu et de la musique avec un petit modèle neuronal qui tourne sur ton PC, au lieu de monter des bandes de fréquences que la voix partage avec le jeu. Monter la voix ne monte plus les explosions. Le modèle a été entraîné sur des mix synthétiques et sur des centaines de vrais lives.",
+          "de": "Der Mixer trennt die Stimme des Streamers jetzt mit einem kleinen neuronalen Modell, das auf deinem PC läuft, von Spiel und Musik, statt Frequenzbänder anzuheben, die sich Stimme und Spiel teilen. Wird die Stimme lauter, werden die Explosionen nicht mehr mit lauter. Das Modell wurde mit synthetischen Mischungen und Hunderten echten Livestreams trainiert.",
+          "es": "El mixer ahora separa la voz del streamer del juego y la música con un pequeño modelo neuronal que funciona en tu PC, en lugar de subir bandas de frecuencia que la voz comparte con el juego. Subir la voz ya no sube también las explosiones. El modelo se entrenó con mezclas sintéticas y con cientos de directos reales.",
+          "pt": "O mixer agora separa a voz do streamer do jogo e da música com um pequeno modelo neural que roda no seu PC, em vez de aumentar faixas de frequência que a voz divide com o jogo. Aumentar a voz não aumenta mais as explosões junto. O modelo foi treinado com mixagens sintéticas e com centenas de lives reais."
+        }
+      },
+      {
+        "type": "new",
+        "title": {
+          "it": "Quattro preset",
+          "en": "Four presets",
+          "fr": "Quatre préréglages",
+          "de": "Vier Presets",
+          "es": "Cuatro presets",
+          "pt": "Quatro presets"
+        },
+        "desc": {
+          "it": "Focus voce (streamer), Focus gioco, Focus musica e Bilanciato. Un focus lascia la sua parte dov'è e abbassa il resto, così la voce non diventa mai più forte o fastidiosa. Bilanciato lascia l'audio esattamente com'è: il mixer si fa da parte e non aggiunge ritardo. Gli stessi preset ci sono nel mixer del player.",
+          "en": "Voice focus (Streamer), Game focus, Music focus and Balanced. A focus keeps its part where it is and lowers the rest, so the voice never gets louder or harsh. Balanced leaves the sound exactly as it is: the mixer steps aside and adds no delay. The player's mixer has the same presets.",
+          "fr": "Focus voix (streamer), Focus jeu, Focus musique et Équilibré. Un focus laisse sa partie où elle est et baisse le reste, donc la voix ne devient jamais plus forte ni agressive. Équilibré laisse le son exactement tel quel : le mixer s'efface et n'ajoute aucun retard. Le mixer du lecteur a les mêmes préréglages.",
+          "de": "Stimmfokus (Streamer), Spielfokus, Musikfokus und Ausgewogen. Ein Fokus lässt seinen Teil, wo er ist, und senkt den Rest, damit die Stimme nie lauter oder schrill wird. Ausgewogen lässt den Ton genau so, wie er ist: Der Mixer tritt zur Seite und fügt keine Verzögerung hinzu. Der Mixer im Player hat dieselben Presets.",
+          "es": "Foco en la voz (streamer), Foco en el juego, Foco en la música y Equilibrado. Un foco deja su parte donde está y baja el resto, así la voz nunca suena más fuerte ni molesta. Equilibrado deja el sonido tal cual: el mixer se aparta y no añade retraso. El mixer del reproductor tiene los mismos presets.",
+          "pt": "Foco na voz (streamer), Foco no jogo, Foco na música e Equilibrado. Um foco deixa a sua parte onde está e abaixa o resto, então a voz nunca fica mais alta nem incômoda. Equilibrado deixa o som exatamente como é: o mixer sai do caminho e não adiciona atraso. O mixer do player tem os mesmos presets."
+        }
+      },
+      {
+        "type": "new",
+        "title": {
+          "it": "Notte",
+          "en": "Night",
+          "fr": "Nuit",
+          "de": "Nacht",
+          "es": "Noche",
+          "pt": "Noite"
+        },
+        "desc": {
+          "it": "Un interruttore che vale con qualsiasi preset: tutto circa 10 dB più basso, con urla ed esplosioni tenute a bada e l'equilibrio tra voce e gioco lasciato com'è. Prende il posto del vecchio preset Notte.",
+          "en": "A switch that works with any preset: everything about 10 dB lower, with shouts and explosions kept in check and the balance between voice and game left alone. It replaces the old Night preset.",
+          "fr": "Un interrupteur qui marche avec n'importe quel préréglage : tout environ 10 dB plus bas, les cris et les explosions contenus et l'équilibre entre voix et jeu inchangé. Il remplace l'ancien préréglage Nuit.",
+          "de": "Ein Schalter, der mit jedem Preset funktioniert: alles etwa 10 dB leiser, Schreie und Explosionen gebremst, das Verhältnis zwischen Stimme und Spiel bleibt gleich. Er ersetzt das alte Nacht-Preset.",
+          "es": "Un interruptor que funciona con cualquier preset: todo unos 10 dB más bajo, con gritos y explosiones contenidos y el equilibrio entre voz y juego intacto. Sustituye al antiguo preset Noche.",
+          "pt": "Um interruptor que funciona com qualquer preset: tudo cerca de 10 dB mais baixo, com gritos e explosões contidos e o equilíbrio entre voz e jogo intacto. Substitui o antigo preset Noite."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Segnala gli spot che passano",
+          "en": "Report ads that get through",
+          "fr": "Signaler les pubs qui passent",
+          "de": "Durchgerutschte Werbung melden",
+          "es": "Informar de anuncios que se cuelan",
+          "pt": "Relatar anúncios que passam"
+        },
+        "desc": {
+          "it": "L'interruttore nelle impostazioni ora manda solo quello che ci serve davvero: quanti blocchi pubblicitari RetoldShield ha fermato e, se uno spot è arrivato lo stesso a schermo, com'era fatto. Al massimo una volta al giorno, in forma anonima, senza canali né link.",
+          "en": "The switch in Settings now sends only what we actually need: how many ad breaks RetoldShield stopped and, if an ad still made it to the screen, what it looked like. Once a day at most, anonymously, with no channels or links.",
+          "fr": "L'interrupteur des paramètres envoie maintenant seulement ce dont on a vraiment besoin : combien de coupures pub RetoldShield a arrêtées et, si une pub est quand même arrivée à l'écran, à quoi elle ressemblait. Une fois par jour au maximum, anonymement, sans chaînes ni liens.",
+          "de": "Der Schalter in den Einstellungen sendet jetzt nur noch, was wir wirklich brauchen: wie viele Werbepausen RetoldShield gestoppt hat und, falls doch Werbung auf dem Bildschirm landete, wie sie aussah. Höchstens einmal am Tag, anonym, ohne Kanäle oder Links.",
+          "es": "El interruptor de Ajustes ahora envía solo lo que de verdad nos hace falta: cuántas pausas publicitarias ha parado RetoldShield y, si aun así un anuncio llegó a la pantalla, cómo era. Como mucho una vez al día, de forma anónima, sin canales ni enlaces.",
+          "pt": "O botão nas Configurações agora envia só o que a gente realmente precisa: quantos intervalos comerciais o RetoldShield barrou e, se mesmo assim um anúncio chegou à tela, como ele era. No máximo uma vez por dia, de forma anônima, sem canais nem links."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Più avvisi in un solo popup",
+          "en": "Several announcements in one popup",
+          "fr": "Plusieurs annonces dans une seule fenêtre",
+          "de": "Mehrere Ankündigungen in einem Popup",
+          "es": "Varios avisos en una sola ventana",
+          "pt": "Vários avisos em uma só janela"
+        },
+        "desc": {
+          "it": "Se ci sono più avvisi attivi si sfogliano nello stesso popup: frecce, pallini, tasti freccia o scorrimento sul touchpad. Quelli che non hai visto ricompaiono al prossimo avvio, e un avviso chiuso torna dopo 30 avvii.",
+          "en": "When more than one announcement is active you flip through them in the same popup: arrows, dots, the arrow keys or a swipe on the touchpad. The ones you haven't seen come back at the next launch, and a closed one returns after 30 launches.",
+          "fr": "Quand plusieurs annonces sont actives, tu les fais défiler dans la même fenêtre : flèches, points, touches fléchées ou glissement sur le pavé tactile. Celles que tu n'as pas vues reviennent au lancement suivant, et une annonce fermée revient après 30 lancements.",
+          "de": "Sind mehrere Ankündigungen aktiv, blätterst du im selben Popup durch sie: Pfeile, Punkte, Pfeiltasten oder Wischen auf dem Touchpad. Nicht gesehene kommen beim nächsten Start wieder, eine geschlossene nach 30 Starts.",
+          "es": "Cuando hay más de un aviso activo, se pasan en la misma ventana: flechas, puntos, teclas de flecha o deslizando en el touchpad. Los que no has visto vuelven en el próximo inicio, y uno cerrado vuelve después de 30 inicios.",
+          "pt": "Quando há mais de um aviso ativo, você passa por eles na mesma janela: setas, pontos, teclas de seta ou deslizando no touchpad. Os que você não viu voltam na próxima abertura, e um aviso fechado volta depois de 30 aberturas."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Controllo VirusTotal",
+          "en": "VirusTotal check",
+          "fr": "Vérification VirusTotal",
+          "de": "VirusTotal-Prüfung",
+          "es": "Comprobación de VirusTotal",
+          "pt": "Verificação do VirusTotal"
+        },
+        "desc": {
+          "it": "Ogni release viene analizzata da VirusTotal e il link al risultato è nel README, così puoi verificarla prima di installarla.",
+          "en": "Every release is scanned by VirusTotal and the link to the result is in the README, so you can check it before installing.",
+          "fr": "Chaque version est analysée par VirusTotal et le lien vers le résultat est dans le README, pour que tu puisses la vérifier avant de l'installer.",
+          "de": "Jede Version wird von VirusTotal geprüft, der Link zum Ergebnis steht in der README, damit du sie vor der Installation kontrollieren kannst.",
+          "es": "Cada versión se analiza con VirusTotal y el enlace al resultado está en el README, para que puedas revisarla antes de instalarla.",
+          "pt": "Cada versão é analisada pelo VirusTotal e o link para o resultado está no README, para você conferir antes de instalar."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.6.0",
     "date": "2026-09-23",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.6.0 - Multistream, pagine canale e RetoldShield più forte",
       "en": "Twitch Retold v2.6.0 - Multistream, channel pages and a stronger RetoldShield",

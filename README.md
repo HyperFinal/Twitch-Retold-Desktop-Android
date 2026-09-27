@@ -11,7 +11,7 @@
 [![Android](https://img.shields.io/github/v/release/HyperFinal/Twitch-Retold-Desktop-Android?filter=mobile-v*&color=3DDC84&label=android&style=for-the-badge&cacheSeconds=60)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/tag/mobile-v2.0.0)
 [![Windows](https://img.shields.io/badge/Windows-x64%20installer-0078D7.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Android](https://img.shields.io/badge/Android-APK%20Direct-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases/download/mobile-v2.0.0/Twitch_retold_2.0.0.apk)
-[![macOS](https://img.shields.io/badge/macOS-Universal%20DMG-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
+[![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon%20%7C%20Intel-000000.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20DEB-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Official%20Channel-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/twitch_retold)
 [![Ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-FF5E5B.svg?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/hyperfinal)
@@ -59,6 +59,8 @@
     - [6. Watch History & Smart Timestamp Resume](#feature-history)
     - [7. Full Localization & Customization](#feature-settings)
     - [8. Native Auto-Updater](#feature-updater)
+    - [9. Multistream](#feature-multistream)
+    - [10. Channel Pages](#feature-channel)
   - [🚀 Installation & Getting Started](#installation)
     - [Windows](#install-windows)
     - [Android](#install-android)
@@ -80,11 +82,11 @@ Every installer is scanned on VirusTotal before it is announced. Twitch Retold i
 
 | Platform | Version | File | Report |
 |---|---|---|---|
-| 🪟 Windows | v2.5.0 | `Twitch-Retold-Setup-2.5.0.exe` | [🔎 VirusTotal](https://www.virustotal.com/gui/file/71c883bd8beafb814dded9d64287444ca5170a7edbbbf366a20c5decce42d5ed) |
+| 🪟 Windows | v2.6.0 | `Twitch-Retold-Setup-2.6.0.exe` | [🔎 VirusTotal](https://www.virustotal.com/gui/file/308cfb8b0aea8a8a74ee3b23647c9b80205ca2a7e1ae3c5f609ebd6624017d35) |
 | 📱 Android | v2.0.0 | `Twitch_retold_2.0.0.apk` | [🔎 VirusTotal](https://www.virustotal.com/gui/file/e5ca13e7b75ee433187d6a55834edc5103d126b8ce0cc4690f94ae0632816277) |
 
 **SHA-256**
-- Windows: `71c883bd8beafb814dded9d64287444ca5170a7edbbbf366a20c5decce42d5ed`
+- Windows: `308cfb8b0aea8a8a74ee3b23647c9b80205ca2a7e1ae3c5f609ebd6624017d35`
 - Android: `e5ca13e7b75ee433187d6a55834edc5103d126b8ce0cc4690f94ae0632816277`
 
 ---
@@ -157,7 +159,7 @@ Unlike traditional adblock proxies that downscale video to **480p/360p** with he
 <a id="benchmark-comparison"></a>
 ### 📊 Real-World Benchmark: RetoldShield vs. Legacy AdBlock vs. PurpleTV
 
-Evaluated across a high-stress dataset recorded directly from live Twitch broadcasts (**9,072 live playlist manifests**, **131,200 video segments**, and **951 commercial ad events** across 10 top live channels):
+Evaluated across a high-stress dataset recorded directly from live Twitch broadcasts (**9,072 live playlist manifests**, **131,200 video segments**, and **951 server-side ad breaks** across 10 top live channels). Every engine is replayed against the exact same captured manifests, so the comparison is reproducible from the published files:
 
 <p align="center">
   <img src="img/benchmark/benchmark-disruptions.png" alt="Stream Stability & Playback Disruptions" width="100%" style="border-radius: 10px; margin-bottom: 20px;" />
@@ -186,23 +188,27 @@ Evaluated across a high-stress dataset recorded directly from live Twitch broadc
 
 All benchmarks shown above are measured on live production Twitch streams—not in local mocks, synthetic playlists, or dev environments.
 
-- **Real live streams**: Data was collected directly from active Twitch broadcasts (esports tournaments, high-traffic streamers, IRL channels). The dataset covers **9,072 live playlist manifests (`.m3u8`)**, **131,200 video segments**, and **951 real Amazon SSAI ad breaks** (`Amazon|<id>`).
+- **Real live streams**: Data was captured directly from active Twitch broadcasts (esports tournaments, high-traffic streamers, IRL channels) and then replayed, byte for byte, through each engine. The comparison dataset covers **9,072 live playlist manifests (`.m3u8`)**, **131,200 video segments**, and **951 real Amazon SSAI ad breaks** (`Amazon|<id>`) from 10 channels. A second, wider dataset covers **1,013 channel entries across 413 channels** and is used to measure what happens in the first seconds after you open a channel.
 - **Production builds**: The tested engine is the exact same build shipped in our desktop and mobile releases, connecting to standard Twitch edge CDNs under normal network conditions.
 - **No AI / machine learning**: RetoldShield does not use machine learning, neural networks, or heuristic guesses. It operates via deterministic HLS parsing (RFC 8216), segment continuity tracking, and stream alignment.
-- **Open dataset**: The complete raw data, comparison JSONs, and session logs are available in [`benchmark-dataset/`](./benchmark-dataset/). You can inspect the raw `.jsonl` files (containing live `#EXT-X-DATERANGE` tags and Amazon SSAI payloads) or open [`benchmark-dataset/benchmarks/viewer.html`](./benchmark-dataset/benchmarks/viewer.html) in your browser to view the benchmark results.
+- **Open dataset**: The complete measurement data, comparison JSONs, and session logs are available in [`benchmark-dataset/`](./benchmark-dataset/). You can inspect the raw `.jsonl` files (ad classes and `#EXT-X-DATERANGE` attributes, timings, per-read verdicts; no account data, no IP addresses, no signed tokens — every capture is anonymous) or open [`benchmark-dataset/benchmarks/viewer.html`](./benchmark-dataset/benchmarks/viewer.html) in your browser to view the benchmark results.
+- **What is not covered yet**: these numbers describe ads inserted into the video stream (SSAI). Twitch also delivers ads **client-side**, outside the manifest, and those are not part of this dataset. A wider 27-hour field campaign — engine on/off control blocks, hundreds of channels, client-side ad tracking — has just been completed and its results, including the cases where an ad did get through, will be published here.
 
 <a id="performance-matrix"></a>
 ### ⚖️ Performance Comparison Matrix
 
-| Metric / Feature | 🛡️ **RetoldShield** *(New Default)* | ⚙️ **Legacy AdBlock** *(In-Page)* | 🌐 **PurpleTV / TTV LOL** *(Proxy)* | 🔴 **Unprotected Twitch** |
+| Metric / Feature | 🛡️ **RetoldShield** *(New Default)* | ⚙️ **Legacy AdBlock** *(In-Page)* | 🌐 **PurpleTV / TTV LOL** *(Proxy — estimated)* | 🔴 **Unprotected Twitch** |
 | :--- | :---: | :---: | :---: | :---: |
-| **Video Ad Elimination** | **100% Ad-Free (951/951)** | **100% Ad-Free (951/951)** | ⚠️ 90–95% *(Ad leaks on handshake)* | 0% *(951 Ads Shown)* |
+| **Video Ad Elimination** *(SSAI, this dataset)* | **951/951 ad breaks resolved** | **951/951 ad breaks resolved** | ⚠️ 90–95% *(Ad leaks on handshake)* | 0% *(951 Ads Shown)* |
 | **Resolution During Ads** | **Native 1080p60 Source** | **Native 1080p60 Source** | ❌ **Forced 480p/360p Downscale** | 1080p60 *(With Ads)* |
 | **Stream Breakages & Stalls** | **0 Disruptions (Flawless)** | ❌ **340 Disruptions** *(173 offline, 167 freezes)* | ❌ **185 Disruptions** *(502 drops & timeout)* | 0 Disruptions |
 | **Added Network Latency** | **~0.12 ms (Direct Local Engine)** | ~0.08 ms (Direct Local) | ❌ **+350ms to +600ms (Severe Delay)** | 0 ms |
 | **Chat Synchronization** | **100% Real-Time** | 100% Real-Time | ❌ Out-of-sync *(Delayed reactions)* | 100% Real-Time |
 | **Server Dependence** | **None (100% Local Engine)** | None (100% Local Engine) | ❌ Vulnerable to proxy outages & bans | Official Twitch CDN |
 | **Multi-Window Stress Test** | **101/101 Ads Resolved (0 Stalls)** | High desync risk on multi-window | Bandwidth bottlenecks during peak hours | Constant commercial breaks |
+
+> **How to read this table.** The RetoldShield, Legacy and Unprotected columns come from the published dataset: same captured manifests, same replay, numbers you can recompute from [`benchmark-dataset/`](./benchmark-dataset/). The proxy column is **not measured by us**: it summarises what those projects document and what users report, and it is kept here only as context. Ad elimination refers to server-side ads inserted into the stream; client-side ads are a separate problem, see the note above.
+
 
 ---
 
@@ -211,7 +217,7 @@ All benchmarks shown above are measured on live production Twitch streams—not 
 
 <a id="feature-retoldshield"></a>
 ### 🛡️ 1. RetoldShield Zero-Ad Engine
-* Built-in by default — blocks all preroll and midroll video ads silently.
+* Built-in by default — silently removes preroll and midroll video ads from the stream.
 * Direct CDN connection ensures zero stream buffering, no resolution drops, and real-time chat sync.
 * Real-time ad counter with accurate debouncing and 1-click counter reset.
 
@@ -249,12 +255,22 @@ All benchmarks shown above are measured on live production Twitch streams—not 
 * Periodic background checking with alert toasts when new releases drop.
 * Automatic in-app download and installation on both Desktop and Android.
 
+<a id="feature-multistream"></a>
+### 🖥️ 9. Multistream (Desktop)
+* Up to three lives at once: one in focus with the full player controls, the others alongside, swapped instantly.
+* One unified chat for every channel, with per-channel sending.
+
+<a id="feature-channel"></a>
+### 📺 10. Channel Pages
+* Our own channel pages, on Android and Desktop: Home, Videos, Clips, Series, Schedule and About.
+* Follow, subscribe and reminders for upcoming lives; Twitch screens such as Subscribe or Gift a sub open in the app's side panel, payments in your browser.
+
 <a id="installation"></a>
 ## 🚀 Installation & Getting Started
 
 <a id="install-windows"></a>
 ### 🪟 Windows:
-1. Download **`Twitch Retold Setup <version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases).
+1. Download **`Twitch-Retold-Setup-<version>.exe`** from [Latest Releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases).
 2. Run the installer. If Windows Defender SmartScreen appears, click **"More info"** and then **"Run anyway"**.
 
 <a id="install-android"></a>
@@ -264,12 +280,17 @@ All benchmarks shown above are measured on live production Twitch streams—not 
 
 <a id="install-macos"></a>
 ### 🍎 macOS:
-1. Download **`Twitch.Retold-<version>.dmg`** (Universal: Apple Silicon M1/M2/M3/M4 & Intel).
+1. Download the DMG for your Mac's processor (Apple menu → **About This Mac** shows *Chip* or *Processor*):
+   - Apple Silicon (M1 / M2 / M3 / M4): **`Twitch-Retold-<version>-arm64.dmg`**
+   - Intel: **`Twitch-Retold-<version>.dmg`**
 2. Open the DMG and drag **Twitch Retold** into your **Applications** folder.
+
+> [!NOTE]
+> Each DMG only runs on its own processor. If the app shows *"Invalid or incompatible cached data (cachedDataRejected)"*, check that the DMG matches your processor: on Apple Silicon, always use the `-arm64.dmg`.
 
 <a id="install-linux"></a>
 ### 🐧 Linux:
-1. **AppImage** (Universal): Download `Twitch.Retold-<version>.AppImage`, make it executable (`chmod +x Twitch.Retold-*.AppImage`), and launch.
+1. **AppImage** (Universal): Download `Twitch-Retold-<version>.AppImage`, make it executable (`chmod +x Twitch-Retold-*.AppImage`), and launch.
 2. **Debian / Ubuntu / Mint**: Download `twitch-retold_*_amd64.deb` and run `sudo dpkg -i twitch-retold_*_amd64.deb`.
 
 <a id="shortcuts"></a>
