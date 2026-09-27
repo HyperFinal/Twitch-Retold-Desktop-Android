@@ -27,43 +27,43 @@
         "pt": "Twitch Retold Mobile {version} está disponível"
       },
       "body": {
-        "it": "Twitch Retold è anche sul telefono: le stesse protezioni del desktop, in un'app pensata per Android. Inquadra il codice con il telefono per scaricarla.",
-        "en": "Twitch Retold is on your phone too: the same protection as the desktop app, in an app built for Android. Scan the code with your phone to get it.",
-        "fr": "Twitch Retold est aussi sur téléphone : les mêmes protections que sur ordinateur, dans une app pensée pour Android. Scannez le code avec votre téléphone pour la télécharger.",
-        "de": "Twitch Retold gibt es auch fürs Smartphone: derselbe Schutz wie am Desktop, in einer App für Android. Scanne den Code mit deinem Handy, um sie zu laden.",
-        "es": "Twitch Retold también está en el móvil: la misma protección que en el escritorio, en una app pensada para Android. Escanea el código con tu móvil para descargarla.",
-        "pt": "O Twitch Retold também está no celular: a mesma proteção do desktop, num app feito para Android. Escaneie o código com o celular para baixar."
+        "it": "L'app Android ora apre le live nel suo player, fino a tre insieme, e porta il Retold Mixer sul telefono. Inquadra il codice con il telefono per scaricarla.",
+        "en": "The Android app now plays lives in its own player, up to three at once, and brings the Retold Mixer to your phone. Scan the code with your phone to get it.",
+        "fr": "L'app Android lit maintenant les lives dans son propre lecteur, jusqu'à trois à la fois, et apporte le Retold Mixer sur téléphone. Scannez le code avec votre téléphone pour la télécharger.",
+        "de": "Die Android-App spielt Lives jetzt im eigenen Player ab, bis zu drei gleichzeitig, und bringt den Retold Mixer aufs Handy. Scanne den Code mit deinem Handy, um sie zu laden.",
+        "es": "La app de Android ahora reproduce los directos en su propio reproductor, hasta tres a la vez, y lleva el Retold Mixer al móvil. Escanea el código con tu móvil para descargarla.",
+        "pt": "O app Android agora toca as lives no próprio player, até três ao mesmo tempo, e leva o Retold Mixer para o celular. Escaneie o código com o celular para baixar."
       },
       "bullets": {
         "it": [
-          "RetoldShield e VOD per abbonati, come sul desktop",
-          "Schermate nuove: Home, Seguiti, Ultime e Sfoglia",
-          "Picture-in-Picture e audio dei VOD a schermo spento"
+          "Multistream: fino a tre live con un'unica chat",
+          "Retold Mixer: la voce dello streamer separata da gioco e musica, più Notte",
+          "RetoldShield, VOD per abbonati e audio a schermo spento"
         ],
         "en": [
-          "RetoldShield and subscriber-only VODs, just like on desktop",
-          "New screens: Home, Following, Recent and Browse",
-          "Picture-in-Picture and VOD audio with the screen off"
+          "Multistream: up to three lives with one chat",
+          "Retold Mixer: the streamer's voice apart from game and music, plus Night",
+          "RetoldShield, subscriber-only VODs and audio with the screen off"
         ],
         "fr": [
-          "RetoldShield et VOD réservées aux abonnés, comme sur ordinateur",
-          "Nouveaux écrans : Accueil, Suivis, Récents et Parcourir",
-          "Picture-in-Picture et audio des VOD écran éteint"
+          "Multistream : jusqu'à trois lives avec un seul chat",
+          "Retold Mixer : la voix du streamer séparée du jeu et de la musique, plus Nuit",
+          "RetoldShield, VOD réservées aux abonnés et audio écran éteint"
         ],
         "de": [
-          "RetoldShield und Abonnenten-VODs wie am Desktop",
-          "Neue Ansichten: Start, Gefolgt, Verlauf und Entdecken",
-          "Picture-in-Picture und VOD-Ton bei ausgeschaltetem Bildschirm"
+          "Multistream: bis zu drei Lives mit einem gemeinsamen Chat",
+          "Retold Mixer: die Stimme des Streamers getrennt von Spiel und Musik, dazu Nacht",
+          "RetoldShield, Abonnenten-VODs und Ton bei ausgeschaltetem Bildschirm"
         ],
         "es": [
-          "RetoldShield y VODs solo para suscriptores, como en el escritorio",
-          "Pantallas nuevas: Inicio, Seguidos, Recientes y Explorar",
-          "Picture-in-Picture y audio de los VODs con la pantalla apagada"
+          "Multistream: hasta tres directos con un solo chat",
+          "Retold Mixer: la voz del streamer separada del juego y la música, y Noche",
+          "RetoldShield, VODs solo para suscriptores y audio con la pantalla apagada"
         ],
         "pt": [
-          "RetoldShield e VODs exclusivos para inscritos, como no desktop",
-          "Telas novas: Início, Seguindo, Recentes e Explorar",
-          "Picture-in-Picture e áudio dos VODs com a tela desligada"
+          "Multistream: até três lives com um só chat",
+          "Retold Mixer: a voz do streamer separada do jogo e da música, e Noite",
+          "RetoldShield, VODs exclusivos para inscritos e áudio com a tela desligada"
         ]
       },
       "cta": {
