@@ -2,7 +2,7 @@
   "schema": 1,
   "announcements": [
     {
-      "id": "mobile-release-r2",
+      "id": "mobile-release-r3",
       "source": "latest-mobile-release",
       "priority": 90,
       "level": "news",
@@ -27,43 +27,49 @@
         "pt": "Twitch Retold Mobile {version} está disponível"
       },
       "body": {
-        "it": "L'app Android ora apre le live nel suo player, fino a tre insieme, e porta il Retold Mixer sul telefono. Inquadra il codice con il telefono per scaricarla.",
-        "en": "The Android app now plays lives in its own player, up to three at once, and brings the Retold Mixer to your phone. Scan the code with your phone to get it.",
-        "fr": "L'app Android lit maintenant les lives dans son propre lecteur, jusqu'à trois à la fois, et apporte le Retold Mixer sur téléphone. Scannez le code avec votre téléphone pour la télécharger.",
-        "de": "Die Android-App spielt Lives jetzt im eigenen Player ab, bis zu drei gleichzeitig, und bringt den Retold Mixer aufs Handy. Scanne den Code mit deinem Handy, um sie zu laden.",
-        "es": "La app de Android ahora reproduce los directos en su propio reproductor, hasta tres a la vez, y lleva el Retold Mixer al móvil. Escanea el código con tu móvil para descargarla.",
-        "pt": "O app Android agora toca as lives no próprio player, até três ao mesmo tempo, e leva o Retold Mixer para o celular. Escaneie o código com o celular para baixar."
+        "it": "La nuova versione Android introduce i filtri per tag, i suggerimenti emote in chat (7TV, BTTV e Twitch), la chat sincronizzata col video e consumi ridotti per non scaldare il telefono. Inquadra il codice per scaricarla.",
+        "en": "The new Android update brings live tag filters, chat emote autocomplete (7TV, BTTV, and Twitch), chat in sync with the video, and lower power usage to keep your phone cool. Scan the code to download.",
+        "fr": "La mise à jour Android apporte le filtre par tags, la suggestion d'émotes dans le chat (7TV, BTTV, Twitch), le chat synchronisé avec la vidéo et une consommation réduite. Scannez le code pour la télécharger.",
+        "de": "Das neue Android-Update bringt Tag-Filter für Streams, Emote-Vorschläge im Chat (7TV, BTTV, Twitch), mit dem Video synchronisierten Chat und weniger Akkuverbrauch. Scanne den Code zum Herunterladen.",
+        "es": "La nueva versión de Android añade filtros por etiquetas, sugerencias de emoticonos en el chat (7TV, BTTV, Twitch), chat sincronizado con el vídeo y menor consumo. Escanea el código para descargarla.",
+        "pt": "A nova versão Android traz filtros por tags, sugestões de emotes no chat (7TV, BTTV, Twitch), chat sincronizado com o vídeo e menor consumo de bateria. Escaneie o código com o celular para baixar."
       },
       "bullets": {
         "it": [
-          "Multistream: fino a tre live con un'unica chat",
-          "Retold Mixer: la voce dello streamer separata da gioco e musica, più Notte",
-          "RetoldShield, VOD per abbonati e audio a schermo spento"
+          "Filtro per tag: trova subito le live con i tuoi tag preferiti",
+          "Suggerimenti emote in chat (7TV, BetterTTV e Twitch) e menzioni @",
+          "Chat a tempo col video e ripresa dal VOD dopo una pausa",
+          "Consumi ottimizzati per mantenere il telefono fresco"
         ],
         "en": [
-          "Multistream: up to three lives with one chat",
-          "Retold Mixer: the streamer's voice apart from game and music, plus Night",
-          "RetoldShield, subscriber-only VODs and audio with the screen off"
+          "Tag filters: easily browse lives with your favourite tags",
+          "Chat emote suggestions (7TV, BetterTTV, and Twitch) and @ mentions",
+          "Chat in sync with video and resume from VOD after pausing",
+          "Optimized performance to keep your phone running cool"
         ],
         "fr": [
-          "Multistream : jusqu'à trois lives avec un seul chat",
-          "Retold Mixer : la voix du streamer séparée du jeu et de la musique, plus Nuit",
-          "RetoldShield, VOD réservées aux abonnés et audio écran éteint"
+          "Filtre par tags : trouvez rapidement les lives avec vos tags favoris",
+          "Suggestions d'émotes dans le chat (7TV, BetterTTV, Twitch) et mentions @",
+          "Chat synchronisé avec la vidéo et reprise sur la VOD après pause",
+          "Consommation optimisée pour garder le téléphone au frais"
         ],
         "de": [
-          "Multistream: bis zu drei Lives mit einem gemeinsamen Chat",
-          "Retold Mixer: die Stimme des Streamers getrennt von Spiel und Musik, dazu Nacht",
-          "RetoldShield, Abonnenten-VODs und Ton bei ausgeschaltetem Bildschirm"
+          "Tag-Filter: finde Streams schnell anhand deiner Lieblingstags",
+          "Emote-Vorschläge im Chat (7TV, BetterTTV, Twitch) und @-Erwähnungen",
+          "Chat synchron mit dem Video und Fortsetzen aus dem VOD nach Pausen",
+          "Optimierte Leistung, damit das Smartphone kühl bleibt"
         ],
         "es": [
-          "Multistream: hasta tres directos con un solo chat",
-          "Retold Mixer: la voz del streamer separada del juego y la música, y Noche",
-          "RetoldShield, VODs solo para suscriptores y audio con la pantalla apagada"
+          "Filtros por etiquetas: encuentra directos con tus tags favoritos",
+          "Sugerencias de emoticonos en chat (7TV, BetterTTV, Twitch) y menciones @",
+          "Chat sincronizado con el vídeo e reanudación de VOD tras pausar",
+          "Consumo optimizado para no calentar el móvil"
         ],
         "pt": [
-          "Multistream: até três lives com um só chat",
-          "Retold Mixer: a voz do streamer separada do jogo e da música, e Noite",
-          "RetoldShield, VODs exclusivos para inscritos e áudio com a tela desligada"
+          "Filtros por tags: encontre lives com as tags que você procura",
+          "Sugestões de emotes no chat (7TV, BetterTTV, Twitch) e menções @",
+          "Chat sincronizado com o vídeo e retomada do VOD após a pausa",
+          "Desempenho otimizado para manter o celular frio"
         ]
       },
       "cta": {
@@ -78,6 +84,84 @@
       },
       "qr": true,
       "repeatEveryLaunches": 30
+    },
+    {
+      "id": "support-kofi",
+      "level": "info",
+      "priority": 50,
+      "repeatEveryLaunches": 30,
+      "platforms": [
+        "desktop"
+      ],
+      "art": "megaphone",
+      "badge": {
+        "it": "Supporto Ko-fi",
+        "en": "Support on Ko-fi",
+        "fr": "Soutien Ko-fi",
+        "de": "Ko-fi Unterstützung",
+        "es": "Apoyo en Ko-fi",
+        "pt": "Apoio no Ko-fi"
+      },
+      "title": {
+        "it": "Ti piace Twitch Retold? Supporta il progetto",
+        "en": "Enjoying Twitch Retold? Support the project",
+        "fr": "Vous aimez Twitch Retold ? Soutenez le projet",
+        "de": "Gefällt dir Twitch Retold? Unterstütze das Projekt",
+        "es": "¿Te gusta Twitch Retold? Apoya el proyecto",
+        "pt": "Gosta do Twitch Retold? Apoie o projeto"
+      },
+      "body": {
+        "it": "Twitch Retold è gratuito e indipendente. Se l'app ti è utile ogni giorno, puoi offrire un caffè su Ko-fi per sostenere lo sviluppo continuo e la manutenzione: anche solo 1€ non è mai poco e fa un'enorme differenza!",
+        "en": "Twitch Retold is free and independent. If you enjoy using it every day, consider buying a coffee on Ko-fi to support continuous updates: even just 1€ is never too little and makes a huge difference!",
+        "fr": "Twitch Retold est gratuit et indépendant. Si vous appréciez l'application au quotidien, vous pouvez offrir un café sur Ko-fi : même 1 € n'est jamais trop peu et fait une énorme différence !",
+        "de": "Twitch Retold ist kostenlos und unabhängig. Wenn dir die App gefällt, kannst du einen Kaffee auf Ko-fi spendieren: selbst 1 € ist niemals zu wenig und macht einen riesigen Unterschied!",
+        "es": "Twitch Retold es gratuito e independiente. Si disfrutas de la app a diario, puedes invitarme a un café en Ko-fi: ¡incluso solo 1 € nunca es poco y marca una enorme diferencia!",
+        "pt": "O Twitch Retold é gratuito e independente. Se você usa o app diariamente, considere apoiar no Ko-fi: até mesmo 1€ nunca é pouco e faz uma diferença enorme!"
+      },
+      "bullets": {
+        "it": [
+          "100% gratuito e senza costi o abbonamenti",
+          "Sviluppo indipendente con aggiornamenti costanti",
+          "Anche solo 1€ aiuta a coprire i costi e il tempo dedicato"
+        ],
+        "en": [
+          "100% free with no paid subscriptions",
+          "Independent development and continuous updates",
+          "Even just 1€ helps cover maintenance and dedicated time"
+        ],
+        "fr": [
+          "100 % gratuit et sans abonnement payant",
+          "Développement indépendant et mises à jour continues",
+          "Même 1 € aide à couvrir les coûts et le temps consacré"
+        ],
+        "de": [
+          "100 % kostenlos und ohne Bezahl-Abos",
+          "Unabhängige Entwicklung und kontinuierliche Updates",
+          "Selbst 1 € hilft, Wartung und Entwicklungszeit zu decken"
+        ],
+        "es": [
+          "100 % gratuito y sin suscripciones de pago",
+          "Desarrollo independiente y actualizaciones continuas",
+          "Incluso 1 € ayuda a cubrir costes y tiempo dedicado"
+        ],
+        "pt": [
+          "100% gratuito e sem assinaturas pagas",
+          "Desenvolvimento independente e atualizações contínuas",
+          "Mesmo 1€ ajuda a cobrir custos e tempo dedicado"
+        ]
+      },
+      "cta": {
+        "label": {
+          "it": "Offri un caffè su Ko-fi",
+          "en": "Buy a coffee on Ko-fi",
+          "fr": "Offrir un café sur Ko-fi",
+          "de": "Kaffee auf Ko-fi spendieren",
+          "es": "Invitar a un café en Ko-fi",
+          "pt": "Pagar um café no Ko-fi"
+        },
+        "url": "https://ko-fi.com/hyperfinal"
+      },
+      "qr": true
     },
     {
       "id": "2026-09-18-retoldshield-restart",
@@ -109,7 +193,7 @@
         "fr": "La première fois, après avoir connecté GitHub, RetoldShield ne s'active qu'au redémarrage de l'app. D'ici là, des pubs peuvent passer, même s'il apparaît déjà sélectionné dans les paramètres.",
         "de": "Beim ersten Mal, nachdem du GitHub verbunden hast, wird RetoldShield erst nach einem Neustart der App aktiv. Bis dahin kann Werbung durchkommen, auch wenn es in den Einstellungen schon ausgewählt ist.",
         "es": "La primera vez, después de conectar GitHub, RetoldShield solo se activa cuando reinicias la app. Hasta entonces pueden colarse anuncios, aunque en Ajustes ya aparezca seleccionado.",
-        "pt": "Na primeira vez, depois de conectar o GitHub, o RetoldShield só entra em ação quando você reinicia o app. Até lá, alguns anúncios podem passar, mesmo que ele já apareça selecionado nas configurações."
+        "pt": "Na primeira vez, depois de conectar o GitHub, o RetoldShield só entra em ação quando você reinicia o app. Até lá, alguns anúncios podem passar, mesmo que ele già apareça selecionado nas configurações."
       },
       "bullets": {
         "it": [
@@ -133,8 +217,8 @@
           "Wir beheben das im nächsten Update"
         ],
         "es": [
-          "Cierra la app del todo (también desde el icono junto al reloj) y vuelve a abrirla",
-          "O bien: Ajustes → Ad-Block, pulsa Legacy, luego RetoldShield y Reiniciar Ahora",
+          "Cierra la app del todo (también desde el icono junto al reloj) e vuelve a abrirla",
+          "O bien: Ajustes → Ad-Block, pulsa Legacy, luego RetoldShield e Reiniciar Ahora",
           "Lo corregimos en la próxima actualización"
         ],
         "pt": [
