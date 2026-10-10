@@ -89,7 +89,7 @@
       "id": "support-kofi",
       "level": "info",
       "priority": 50,
-      "repeatEveryLaunches": 30,
+      "repeatEveryLaunches": 10,
       "platforms": [
         "desktop",
         "mobile"
