@@ -1,8 +1,79 @@
 [
   {
+    "version": "2.8.0",
+    "date": "2026-10-09",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.8.0 - Filtro per tag e chat del Multistream a tempo con il video",
+      "en": "Twitch Retold v2.8.0 - Tag filter and a Multistream chat in time with the video",
+      "fr": "Twitch Retold v2.8.0 - Filtre par tag et chat du Multistream calé sur la vidéo",
+      "de": "Twitch Retold v2.8.0 - Tag-Filter und ein Multistream-Chat im Takt mit dem Video",
+      "es": "Twitch Retold v2.8.0 - Filtro por etiquetas y chat del Multistream al ritmo del vídeo",
+      "pt": "Twitch Retold v2.8.0 - Filtro por tag e chat do Multistream no tempo do vídeo"
+    },
+    "items": [
+      {
+        "type": "new",
+        "title": {
+          "it": "Filtra le live per tag",
+          "en": "Filter lives by tag",
+          "fr": "Filtrer les lives par tag",
+          "de": "Livestreams nach Tags filtern",
+          "es": "Filtra los directos por etiqueta",
+          "pt": "Filtre as lives por tag"
+        },
+        "desc": {
+          "it": "In Sfoglia › Canali live e nella pagina di ogni categoria c'è una riga di tag. Ci sono quelli più usati dalle live in pagina, oppure ne scrivi uno tuo e premi Invio, fino a cinque insieme. Il filtro lo applica Twitch, quindi escono tutte le live con quel tag e non solo quelle già caricate.",
+          "en": "Browse › Live channels and every category page now have a row of tags. It shows the ones the lives on the page use most, or you can type your own and press Enter, up to five at once. Twitch does the filtering, so you get every live with that tag, not just the ones already loaded.",
+          "fr": "Parcourir › Chaînes en live et la page de chaque catégorie ont maintenant une ligne de tags. On y trouve ceux que les lives de la page utilisent le plus, ou tu tapes le tien et tu appuies sur Entrée, jusqu'à cinq à la fois. C'est Twitch qui filtre : tu obtiens tous les lives avec ce tag, pas seulement ceux déjà chargés.",
+          "de": "Unter Entdecken › Live-Kanäle und auf jeder Kategorieseite gibt es jetzt eine Reihe mit Tags. Dort stehen die, die die Livestreams auf der Seite am häufigsten nutzen, oder du gibst selbst einen ein und drückst Enter, bis zu fünf gleichzeitig. Gefiltert wird von Twitch, also bekommst du alle Livestreams mit diesem Tag und nicht nur die schon geladenen.",
+          "es": "En Explorar › Canales en directo y en la página de cada categoría hay ahora una fila de etiquetas. Salen las que más usan los directos de la página, o escribes la tuya y pulsas Intro, hasta cinco a la vez. El filtro lo aplica Twitch, así que aparecen todos los directos con esa etiqueta y no solo los que ya estaban cargados.",
+          "pt": "Em Explorar › Canais ao vivo e na página de cada categoria agora tem uma linha de tags. Aparecem as mais usadas pelas lives da página, ou você digita a sua e aperta Enter, até cinco de uma vez. Quem filtra é a Twitch, então aparecem todas as lives com essa tag, não só as que já estavam carregadas."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "La chat del Multistream va a tempo con il video",
+          "en": "The Multistream chat keeps time with the video",
+          "fr": "Le chat du Multistream suit la vidéo",
+          "de": "Der Multistream-Chat läuft im Takt mit dem Video",
+          "es": "El chat del Multistream va al ritmo del vídeo",
+          "pt": "O chat do Multistream acompanha o vídeo"
+        },
+        "desc": {
+          "it": "Le live arrivano con qualche secondo di ritardo, la chat no: leggevi le reazioni prima di vedere la scena. Adesso ogni messaggio aspetta il punto del video a cui si riferisce. I tuoi messaggi compaiono subito.",
+          "en": "Lives arrive a few seconds late, the chat doesn't, so you read the reactions before you saw what happened. Now each message waits for the moment in the video it's about. Your own messages still show up right away.",
+          "fr": "Les lives arrivent avec quelques secondes de retard, le chat non : tu lisais les réactions avant de voir la scène. Maintenant chaque message attend le moment de la vidéo dont il parle. Tes propres messages s'affichent tout de suite.",
+          "de": "Livestreams kommen ein paar Sekunden verzögert an, der Chat nicht: Du hast die Reaktionen gelesen, bevor du die Szene gesehen hast. Jetzt wartet jede Nachricht auf den Moment im Video, um den es geht. Deine eigenen Nachrichten erscheinen sofort.",
+          "es": "Los directos llegan con unos segundos de retraso y el chat no, así que leías las reacciones antes de ver la escena. Ahora cada mensaje espera al momento del vídeo del que habla. Tus propios mensajes aparecen al instante.",
+          "pt": "As lives chegam com alguns segundos de atraso e o chat não, então você lia as reações antes de ver a cena. Agora cada mensagem espera o momento do vídeo de que fala. As suas mensagens aparecem na hora."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Segnalazioni degli spot più utili",
+          "en": "More useful ad reports",
+          "fr": "Des signalements de pubs plus utiles",
+          "de": "Nützlichere Werbemeldungen",
+          "es": "Avisos de anuncios más útiles",
+          "pt": "Relatórios de anúncios mais úteis"
+        },
+        "desc": {
+          "it": "Le segnalazioni anonime (Impostazioni › Ad-Block) ora contano anche le ore guardate e i secondi di pubblicità che RetoldShield ha tolto, e ci avvisano quando compare un formato di spot nuovo anche se non arriva a schermo. Restano anonime: niente canali, niente link, al massimo una volta al giorno.",
+          "en": "The anonymous reports (Settings › Ad-Block) now also count hours watched and the seconds of ads RetoldShield removed, and they tell us when a new kind of ad shows up even if it never reaches your screen. Still anonymous: no channels, no links, once a day at most.",
+          "fr": "Les signalements anonymes (Paramètres › Ad-Block) comptent maintenant aussi les heures regardées et les secondes de pub retirées par RetoldShield, et nous préviennent quand un nouveau format de pub apparaît, même s'il n'arrive pas à l'écran. Toujours anonymes : pas de chaînes, pas de liens, une fois par jour au maximum.",
+          "de": "Die anonymen Meldungen (Einstellungen › Ad-Block) zählen jetzt auch die geschauten Stunden und die Sekunden Werbung, die RetoldShield entfernt hat, und sagen uns Bescheid, wenn ein neues Werbeformat auftaucht, auch wenn es nie auf dem Bildschirm landet. Weiterhin anonym: keine Kanäle, keine Links, höchstens einmal am Tag.",
+          "es": "Los avisos anónimos (Ajustes › Ad-Block) ahora cuentan también las horas vistas y los segundos de anuncios que RetoldShield ha quitado, y nos avisan cuando aparece un formato de anuncio nuevo aunque no llegue a la pantalla. Siguen siendo anónimos: sin canales, sin enlaces, como mucho una vez al día.",
+          "pt": "Os relatórios anônimos (Configurações › Ad-Block) agora contam também as horas assistidas e os segundos de anúncio que o RetoldShield removeu, e avisam a gente quando aparece um formato novo de anúncio, mesmo que ele não chegue à tela. Continuam anônimos: sem canais, sem links, no máximo uma vez por dia."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.7.0",
     "date": "2026-09-25",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.7.0 - Il nuovo Retold Mixer",
       "en": "Twitch Retold v2.7.0 - The new Retold Mixer",
