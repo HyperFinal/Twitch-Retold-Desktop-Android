@@ -75,6 +75,16 @@
 
 </div>
 
+## News from the developer
+
+**A Twitch Retold update is in preparation.** Release details and timing will be shared when confirmed. Follow [Twitch Retold releases](https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases) for official updates.
+
+**Building software with AI? Meet Coterie**, another project from the creator of Twitch Retold. Coterie is a Windows workspace for AI coding CLIs: one model plans, others build in parallel, and a different model reviews the changes.
+
+[Explore Coterie and request the free private beta](https://offlinestudio.eu/coterie?utm_source=twitch_retold&utm_medium=github_readme&utm_campaign=coterie_launch) · [Coterie documentation and feedback on GitHub](https://github.com/CoterieApp/Coterie)
+
+---
+
 <a id="virustotal-scans"></a>
 ## 🧪 VirusTotal Scans
 

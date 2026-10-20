@@ -2,6 +2,99 @@
   "schema": 1,
   "announcements": [
     {
+      "id": "2026-10-20-retold-update-preview",
+      "level": "news",
+      "priority": 80,
+      "platforms": [
+        "desktop",
+        "mobile"
+      ],
+      "art": "update",
+      "repeatEveryLaunches": 0,
+      "until": "2026-11-20",
+      "badge": {
+        "it": "Prossimo aggiornamento",
+        "en": "Upcoming update",
+        "fr": "Prochaine mise à jour",
+        "de": "Nächstes Update",
+        "es": "Próxima actualización",
+        "pt": "Próxima atualização"
+      },
+      "title": {
+        "it": "Twitch Retold: un aggiornamento è in arrivo",
+        "en": "Twitch Retold: an update is on the way",
+        "fr": "Twitch Retold : une mise à jour se prépare",
+        "de": "Twitch Retold: Ein Update ist in Arbeit",
+        "es": "Twitch Retold: una actualización en camino",
+        "pt": "Twitch Retold: uma atualização a caminho"
+      },
+      "body": {
+        "it": "È in preparazione un nuovo aggiornamento di Twitch Retold. Data, versioni e novità saranno annunciate quando saranno confermate. Segui le release della repository per le informazioni ufficiali; questo avviso non indica un download già disponibile.",
+        "en": "A new Twitch Retold update is in preparation. Release date, versions and changes will be announced when confirmed. Follow the repository releases for official information; this announcement does not mean a new download is available yet.",
+        "fr": "Une nouvelle mise à jour de Twitch Retold se prépare. Date, versions et nouveautés seront annoncées après confirmation. Suivez les releases du dépôt pour les informations officielles ; cette annonce ne signifie pas qu’un nouveau téléchargement est déjà disponible.",
+        "de": "Ein neues Twitch-Retold-Update wird vorbereitet. Datum, Versionen und Neuerungen werden nach Bestätigung angekündigt. Die Releases im Repository liefern offizielle Informationen; diese Ankündigung bedeutet noch keinen neuen verfügbaren Download.",
+        "es": "Se está preparando una nueva actualización de Twitch Retold. La fecha, las versiones y las novedades se anunciarán cuando estén confirmadas. Sigue las releases del repositorio para la información oficial; este aviso no indica que ya haya una nueva descarga.",
+        "pt": "Uma nova atualização do Twitch Retold está em preparação. Data, versões e novidades serão anunciadas quando confirmadas. Acompanhe as releases do repositório para informações oficiais; este aviso não significa que um novo download já esteja disponível."
+      },
+      "cta": {
+        "label": {
+          "it": "Segui le release",
+          "en": "Follow releases",
+          "fr": "Suivre les releases",
+          "de": "Releases ansehen",
+          "es": "Ver las releases",
+          "pt": "Acompanhar releases"
+        },
+        "url": "https://github.com/HyperFinal/Twitch-Retold-Desktop-Android/releases"
+      }
+    },
+    {
+      "id": "2026-10-20-coterie-private-beta",
+      "level": "news",
+      "priority": 70,
+      "platforms": [
+        "desktop",
+        "mobile"
+      ],
+      "art": "megaphone",
+      "repeatEveryLaunches": 0,
+      "badge": {
+        "it": "Da OfflineStudio",
+        "en": "From OfflineStudio",
+        "fr": "Par OfflineStudio",
+        "de": "Von OfflineStudio",
+        "es": "De OfflineStudio",
+        "pt": "Da OfflineStudio"
+      },
+      "title": {
+        "it": "Sviluppi software? Scopri Coterie",
+        "en": "Building software? Meet Coterie",
+        "fr": "Vous développez ? Découvrez Coterie",
+        "de": "Du entwickelst Software? Entdecke Coterie",
+        "es": "¿Desarrollas software? Descubre Coterie",
+        "pt": "Desenvolve software? Conheça o Coterie"
+      },
+      "body": {
+        "it": "Un altro progetto del creatore di Twitch Retold: Coterie coordina i CLI di coding AI su Windows. Un modello pianifica, altri implementano in parallelo e un modello diverso revisiona le modifiche. Beta privata gratuita su richiesta: https://offlinestudio.eu/coterie. Il pulsante apre la presentazione e il link al sito su GitHub.",
+        "en": "Another project from the creator of Twitch Retold: Coterie coordinates AI coding CLIs on Windows. One model plans, others build in parallel, and a different model reviews changes. Free private beta on request: https://offlinestudio.eu/coterie. The button opens the overview and website link on GitHub.",
+        "fr": "Un autre projet du créateur de Twitch Retold : Coterie coordonne les CLI de code IA sous Windows. Un modèle planifie, d’autres développent en parallèle et un modèle différent révise les modifications. Bêta privée gratuite sur demande : https://offlinestudio.eu/coterie. Le bouton ouvre la présentation et le lien du site sur GitHub.",
+        "de": "Ein weiteres Projekt vom Entwickler von Twitch Retold: Coterie koordiniert KI-Coding-CLIs unter Windows. Ein Modell plant, andere entwickeln parallel, ein anderes prüft die Änderungen. Kostenlose private Beta auf Anfrage: https://offlinestudio.eu/coterie. Der Button öffnet die Übersicht mit Website-Link auf GitHub.",
+        "es": "Otro proyecto del creador de Twitch Retold: Coterie coordina los CLI de programación con IA en Windows. Un modelo planifica, otros desarrollan en paralelo y otro revisa los cambios. Beta privada gratuita bajo solicitud: https://offlinestudio.eu/coterie. El botón abre la presentación y el enlace al sitio en GitHub.",
+        "pt": "Outro projeto do criador do Twitch Retold: Coterie coordena CLIs de programação com IA no Windows. Um modelo planeja, outros desenvolvem em paralelo e outro revisa as alterações. Beta privada gratuita mediante solicitação: https://offlinestudio.eu/coterie. O botão abre a apresentação e o link do site no GitHub."
+      },
+      "cta": {
+        "label": {
+          "it": "Scopri Coterie su GitHub",
+          "en": "Explore Coterie on GitHub",
+          "fr": "Découvrir Coterie sur GitHub",
+          "de": "Coterie auf GitHub entdecken",
+          "es": "Descubre Coterie en GitHub",
+          "pt": "Conheça o Coterie no GitHub"
+        },
+        "url": "https://github.com/CoterieApp/Coterie"
+      }
+    },
+    {
       "id": "mobile-release-r3",
       "source": "latest-mobile-release",
       "priority": 90,
