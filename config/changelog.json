@@ -1,8 +1,60 @@
 [
   {
+    "version": "2.8.1",
+    "date": "2026-10-23",
+    "badge": "LATEST",
+    "title": {
+      "it": "Twitch Retold v2.8.1 - Hotfix verifica StarGate",
+      "en": "Twitch Retold v2.8.1 - StarGate verification hotfix",
+      "fr": "Twitch Retold v2.8.1 - Correctif de la vérification StarGate",
+      "de": "Twitch Retold v2.8.1 - Hotfix für die StarGate-Prüfung",
+      "es": "Twitch Retold v2.8.1 - Corrección de la verificación de StarGate",
+      "pt": "Twitch Retold v2.8.1 - Correção da verificação do StarGate"
+    },
+    "items": [
+      {
+        "type": "fix",
+        "title": {
+          "it": "StarGate: stella non riconosciuta",
+          "en": "StarGate: star not recognised",
+          "fr": "StarGate : étoile non reconnue",
+          "de": "StarGate: Stern nicht erkannt",
+          "es": "StarGate: estrella no reconocida",
+          "pt": "StarGate: estrela não reconhecida"
+        },
+        "desc": {
+          "it": "Il repository è stato rinominato e la verifica cercava ancora il vecchio nome, quindi chi aveva già messo la stella veniva bloccato. Ora la stella si riconosce dall'ID del repository, che non cambia con il nome, e i reindirizzamenti di GitHub vengono seguiti solo se sicuri.",
+          "en": "The repository was renamed and the check still looked for the old name, so people who had already starred it were blocked. The star is now matched by the repository ID, which does not change with the name, and GitHub redirects are followed only when safe.",
+          "fr": "Le dépôt a été renommé et la vérification cherchait encore l'ancien nom : ceux qui avaient déjà mis l'étoile étaient bloqués. L'étoile est maintenant reconnue par l'ID du dépôt, qui ne change pas avec le nom, et les redirections de GitHub ne sont suivies que si elles sont sûres.",
+          "de": "Das Repository wurde umbenannt und die Prüfung suchte noch den alten Namen, sodass Nutzer mit Stern blockiert wurden. Der Stern wird jetzt über die Repository-ID erkannt, die sich mit dem Namen nicht ändert, und GitHub-Weiterleitungen werden nur befolgt, wenn sie sicher sind.",
+          "es": "El repositorio cambió de nombre y la comprobación seguía buscando el antiguo, así que quien ya había dado la estrella quedaba bloqueado. Ahora la estrella se reconoce por el ID del repositorio, que no cambia con el nombre, y las redirecciones de GitHub solo se siguen si son seguras.",
+          "pt": "O repositório foi renomeado e a verificação ainda procurava o nome antigo, bloqueando quem já tinha dado a estrela. Agora a estrela é reconhecida pelo ID do repositório, que não muda com o nome, e os redirecionamentos do GitHub só são seguidos quando seguros."
+        }
+      },
+      {
+        "type": "improvement",
+        "title": {
+          "it": "Errori di verifica più chiari",
+          "en": "Clearer verification errors",
+          "fr": "Erreurs de vérification plus claires",
+          "de": "Klarere Prüffehler",
+          "es": "Errores de verificación más claros",
+          "pt": "Erros de verificação mais claros"
+        },
+        "desc": {
+          "it": "Un errore di rete o un controllo pubblico non conclusivo non viene più scambiato per una stella mancante, e compaiono dettagli diagnostici da segnalare, senza token né contenuto delle risposte. Il controllo pubblico ora legge fino a 100 pagine di stelle invece di 3.",
+          "en": "A network error or an inconclusive public check is no longer mistaken for a missing star, and diagnostic details you can report now appear, with no token or response content. The public check now reads up to 100 pages of stars instead of 3.",
+          "fr": "Une erreur réseau ou un contrôle public non concluant n'est plus pris pour une étoile manquante, et des détails de diagnostic à signaler s'affichent, sans jeton ni contenu des réponses. Le contrôle public lit maintenant jusqu'à 100 pages d'étoiles au lieu de 3.",
+          "de": "Ein Netzwerkfehler oder eine nicht schlüssige öffentliche Prüfung gilt nicht mehr als fehlender Stern, und es erscheinen Diagnosedaten zum Melden, ohne Token oder Antwortinhalte. Die öffentliche Prüfung liest jetzt bis zu 100 Seiten Sterne statt 3.",
+          "es": "Un error de red o una comprobación pública no concluyente ya no se confunde con una estrella ausente, y aparecen detalles de diagnóstico para informar, sin token ni contenido de las respuestas. La comprobación pública lee ahora hasta 100 páginas de estrellas en lugar de 3.",
+          "pt": "Um erro de rede ou uma verificação pública inconclusiva não é mais confundido com estrela ausente, e aparecem detalhes de diagnóstico para reportar, sem token nem conteúdo das respostas. A verificação pública agora lê até 100 páginas de estrelas em vez de 3."
+        }
+      }
+    ]
+  },
+  {
     "version": "2.8.0",
     "date": "2026-10-09",
-    "badge": "LATEST",
     "title": {
       "it": "Twitch Retold v2.8.0 - Filtro per tag e chat del Multistream a tempo con il video",
       "en": "Twitch Retold v2.8.0 - Tag filter and a Multistream chat in time with the video",
